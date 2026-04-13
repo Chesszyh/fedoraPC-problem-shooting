@@ -43,8 +43,8 @@
 ## 输入示例
 
 ```text
-vless://<uuid>@162.159.153.217:2096?security=tls&type=ws&host=<domain.example>&fp=chrome&sni=<domain.example>&path=%2F&encryption=none#CF官方优选1
-vless://<uuid>@104.26.12.74:443?security=tls&type=ws&host=<domain.example>&fp=chrome&sni=<domain.example>&path=%2Fws%3Fed%3D2048&encryption=none#CF官方优选2
+vless://<uuid>@<server-host>:<port>?security=tls&type=ws&host=<ws-host>&fp=chrome&sni=<sni-host>&path=%2F&encryption=none#example-1
+vless://<uuid>@<server-host>:<port>?security=tls&type=ws&host=<ws-host>&fp=chrome&sni=<sni-host>&path=%2Fws%3Fed%3D2048&encryption=none#example-2
 ```
 
 ## 最常用命令
@@ -110,18 +110,18 @@ ipv6: true
 proxies:
   - name: CF官方优选1
     type: vless
-    server: 162.159.153.217
-    port: 2096
-    uuid: <uuid>
+    server: example.com
+    port: 443
+    uuid: 00000000-0000-0000-0000-000000000000
     network: ws
     udp: true
     tls: true
-    servername: <domain.example>
+    servername: example.com
     client-fingerprint: chrome
     ws-opts:
       path: /
       headers:
-        Host: <domain.example>
+        Host: example.com
 
 proxy-groups:
   - name: AIER
@@ -231,10 +231,10 @@ URL 中的 `path=%2Fws%3Fed%3D2048` 会被解码成：
 
 ## 维护建议
 
-- 把原始 `vless.txt` 保留在 Git 中，便于复现
+- 原始 `vless.txt` 通常包含可用节点凭据，不要纳入 Git
 - 把 `local-vless.yaml` 视为生成物，不纳入 Git
 - 如果你后续维护多个来源，建议按来源拆分：
-  - `vless-aier.txt`
-  - `vless-foo.txt`
+  - `vless-provider-a.txt`
+  - `vless-provider-b.txt`
   - `local-aier.yaml`
   - `local-foo.yaml`

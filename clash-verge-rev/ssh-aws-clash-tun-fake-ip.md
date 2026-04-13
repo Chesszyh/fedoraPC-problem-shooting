@@ -194,7 +194,7 @@ ssh -vvv <HostAlias>
 ### 查看当前生成配置里是否已生效
 
 ```bash
-rg -n "fake-ip-filter:|<ec2-hostname-fragment>|PROCESS-NAME,ssh,DIRECT" clash-verge.yaml profiles/*.yaml
+rg -n "fake-ip-filter:|<ec2-hostname>|PROCESS-NAME,ssh,DIRECT" clash-verge.yaml profiles/*.yaml
 ```
 
 ### 快速检查 YAML 解析结果

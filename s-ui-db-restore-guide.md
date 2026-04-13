@@ -19,7 +19,7 @@
 
 ## 2. 使用的数据库文件
 
-当前目录中的数据库文件：
+脱敏示例中的数据库文件：
 
 ```text
 /path/to/s-ui.db
@@ -224,9 +224,9 @@ sqlite3 /path/to/s-ui.db \
 因此结合数据库端口查询结果，云服务器入站规则应放行：
 
 ```text
-TCP <shared-port>    -> VLESS-Reality
-UDP <shared-port>    -> TUIC
-UDP <hy2-port>   -> Hysteria2 (hy2)
+TCP <shared-port> -> VLESS-Reality
+UDP <shared-port> -> TUIC
+UDP <hy2-port>    -> Hysteria2 (hy2)
 ```
 
 ## 10. 最终结论
@@ -235,9 +235,9 @@ UDP <hy2-port>   -> Hysteria2 (hy2)
 
 | 协议 | 数据库中的 type/tag | 监听端口 | 需要放行 |
 |---|---|---:|---|
-| VLESS-Reality | `type=vless`, `tag=vless-reality` | <shared-port> | `TCP <shared-port>` |
-| TUIC | `type=tuic`, `tag=tuic` | <shared-port> | `UDP <shared-port>` |
-| HY2 | `type=hysteria2` | <hy2-port> | `UDP <hy2-port>` |
+| VLESS-Reality | `type=vless`, `tag=vless-reality` | `<shared-port>` | `TCP <shared-port>` |
+| TUIC | `type=tuic`, `tag=tuic` | `<shared-port>` | `UDP <shared-port>` |
+| HY2 | `type=hysteria2` | `<hy2-port>` | `UDP <hy2-port>` |
 
 ## 11. 复查时可直接使用的命令清单
 
@@ -254,5 +254,5 @@ sqlite3 s-ui.db "SELECT id, type, tag, quote(CAST(options AS TEXT)), quote(CAST(
 
 - 这里查询的是数据库中的实际配置，不是程序默认值。
 - `hy2` 在库里显示为 `hysteria2`，查询时要注意名称差异。
-- `vless-reality` 和 `tuic` 都使用 `<shared-port>`，但一个走 `TCP`，一个走 `UDP`，两者不冲突。
+- `vless-reality` 和 `tuic` 可以共用同一个端口，但一个走 `TCP`，一个走 `UDP`，两者不冲突。
 - 如果后续面板里改过端口，应该重新执行上述查询，不要沿用本文中的端口数字。
