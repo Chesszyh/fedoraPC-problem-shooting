@@ -1,0 +1,21 @@
+site_name: Chesszyh Reports
+site_url: https://report.chesszyh.xyz/
+repo_url: https://github.com/Chesszyh/fedoraPC-problem-shooting
+repo_name: Chesszyh/fedoraPC-problem-shooting
+
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: readthedocs
+  locale: zh_CN
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
