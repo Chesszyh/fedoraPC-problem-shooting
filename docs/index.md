@@ -44,6 +44,8 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 - [Fedora Hyprland SDDM 黑屏与 akmods 报告](fedora-hyprland-sddm-black-screen-akmods-2026-03-15.md)
 - [Fedora Hyprland SDDM 黑屏快速检查清单](fedora-hyprland-sddm-black-screen-akmods-quick-checklist-2026-03-15.md)
 - [Fedora Legion Y9000P 键盘突然失效报告](fedora-legion-y9000p-keyboard-sudden-failure-report-2026-04-07.md)
+- [Fedora Hyprland 外接显示器亮度路由与卡顿优化报告](fedora-hyprland-external-monitor-brightness-routing-report-2026-04-24.md)
+- [Fedora 格式化 exFAT U 盘后 macOS 提示无法读取修复报告](fedora-exfat-usb-macos-unreadable-report-2026-04-27.md)
 - [DaVinci Resolve 20.3.1 Fedora 43 安装报告](INSTALL_REPORT_DAVINCI_RESOLVE_20.3.1_FEDORA43.md)
 - [Chrome 字体事件报告](chrome_font_incident_report_2026-02-12.md)
 - [系统清理报告](system_cleanup_report_20260312.md)
@@ -59,6 +61,7 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 - [SSH 连接问题分析与解决方案](ssh_issue_report.md)
 - [Kitty SSH 配置说明](kitty-ssh-conf.md)
 - [Clash Verge Rev: SSH AWS fake-ip 排障](clash-verge-rev/ssh-aws-clash-tun-fake-ip.md)
+- [Clash Verge Rev: Hyprland Tailscale WebUI 502 排障](clash-verge-rev/hyprland-tailscale-webui-502-proxy-report-2026-04-21.md)
 - [Clash Verge Rev: VLESS 转换脚本说明](clash-verge-rev/vless-to-clash-script.md)
 - [s-ui 数据库端口查询说明](s-ui-db-restore-guide.md)
 
@@ -68,9 +71,12 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 
 <div class="report-list" markdown>
 
+- [osu! lazer BTMC 皮肤导入后名称过长与重导入修复报告](osu-lazer-btmc-skin-import-rename-report-2026-04-25.md)
+- [context-mode 项目暂缓采用复查记录](context-mode-deferred-evaluation-report-2026-04-27.md)
 - [cliproxyapi Codex 非流式 content null 报告](cliproxyapi-codex-nonstream-content-null-report-2026-04-14.md)
 - [Discord URL handler 报告](discord-url-handler-report-2026-04-14.md)
 - [Kitty Conda 污染报告](kitty-conda-pollution-report-2026-04-12.md)
+- [Audio Separator 长任务容器自动删除与结果丢失问题报告](audio-separator-long-task-container-rm-report-2026-04-18.md)
 - [npm install 错误恢复](npm_install_error_recovery.md)
 - [peon-ping 多 IDE 配置报告](peon-ping-multi-ide-config-report-2026-03-09.md)
 - [AdsPower RPM 转换报告](AdsPower_RPM_Conversion_Report.md)
