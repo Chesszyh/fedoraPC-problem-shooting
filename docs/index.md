@@ -63,6 +63,7 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 - [Clash Verge Rev: SSH AWS fake-ip 排障](clash-verge-rev/ssh-aws-clash-tun-fake-ip.md)
 - [Clash Verge Rev: Hyprland Tailscale WebUI 502 排障](clash-verge-rev/hyprland-tailscale-webui-502-proxy-report-2026-04-21.md)
 - [Clash Verge Rev: VLESS 转换脚本说明](clash-verge-rev/vless-to-clash-script.md)
+- [Mihomo Headless 部署、UI 后端连接与多订阅切换排障报告](mihomo-headless-ui-subscription-switch-report-2026-04-28.md)
 - [s-ui 数据库端口查询说明](s-ui-db-restore-guide.md)
 
 </div>
