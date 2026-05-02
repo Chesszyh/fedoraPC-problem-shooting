@@ -73,6 +73,7 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 <div class="report-list" markdown>
 
 - [osu! lazer BTMC 皮肤导入后名称过长与重导入修复报告](osu-lazer-btmc-skin-import-rename-report-2026-04-25.md)
+- [Neuro 桌宠在 macOS 上的 Java 8、启动器与菜单排障报告](neurolings-macos-java8-launcher-report-2026-05-02.md)
 - [context-mode 项目暂缓采用复查记录](context-mode-deferred-evaluation-report-2026-04-27.md)
 - [cliproxyapi Codex 非流式 content null 报告](cliproxyapi-codex-nonstream-content-null-report-2026-04-14.md)
 - [Discord URL handler 报告](discord-url-handler-report-2026-04-14.md)
