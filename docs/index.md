@@ -11,6 +11,7 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 <a class="report-action" href="#fedora">Fedora 与桌面环境</a>
 <a class="report-action" href="#network">网络与代理</a>
 <a class="report-action" href="#tools">开发工具与应用</a>
+<a class="report-action" href="#macmini">Mac mini</a>
 <a class="report-action" href="#notes">其他记录</a>
 </div>
 </section>
@@ -27,6 +28,10 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 <a class="report-card" href="#tools">
   <strong>开发工具与应用</strong>
   <span>Codex 代理、Discord handler、Conda 污染、npm、IDE hooks。</span>
+</a>
+<a class="report-card" href="#macmini">
+  <strong>Mac mini</strong>
+  <span>本地网络、远程开发、Playwright 浏览器缓存和外接磁盘迁移。</span>
 </a>
 <a class="report-card" href="#notes">
   <strong>其他记录</strong>
@@ -84,6 +89,18 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 - [AdsPower RPM 转换报告](AdsPower_RPM_Conversion_Report.md)
 - [tldr 自定义页面指南](tldr_custom_pages_guide.md)
 - [tmux 中文字体不显示](tmux-中文字体不显示.md)
+
+</div>
+
+## Mac mini { #macmini }
+
+<div class="report-list" markdown>
+
+- [Mac mini 排障报告索引](macmini-reports/index.md)
+- [tmux 远程开发配置与持久化问题报告](macmini-reports/tmux-remote-dev-config-report-2026-04-14.md)
+- [Hermes Codex API Timeout 代理与 DNS 排障报告](macmini-reports/hermes-codex-proxy-tun-dns-report-2026-04-17.md)
+- [Playwright Chromium 安装卡住问题报告](macmini-reports/playwright-chromium-install-stuck-report-2026-04-17.md)
+- [Mac mini 外接 NTFS 磁盘不可写与局域网传输速度分析报告](macmini-reports/macmini-ntfs-lan-transfer-report-2026-04-28.md)
 
 </div>
 
