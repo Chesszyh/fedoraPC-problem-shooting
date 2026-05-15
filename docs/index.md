@@ -68,7 +68,9 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 - [Clash Verge Rev: SSH AWS fake-ip 排障](clash-verge-rev/ssh-aws-clash-tun-fake-ip.md)
 - [Clash Verge Rev: Hyprland Tailscale WebUI 502 排障](clash-verge-rev/hyprland-tailscale-webui-502-proxy-report-2026-04-21.md)
 - [Clash Verge Rev: GCP x-ui 面板 ERR_CONNECTION_CLOSED 排障](clash-verge-rev/gcp-x-ui-panel-clash-tun-err-connection-closed-report-2026-05-07.md)
+- [Clash Verge Rev: gcp-sg 订阅增强与远程迁移排障](clash-verge-rev/gcp-sg-clash-verge-profile-enhancement-migration-report-2026-05-08.md)
 - [Clash Verge Rev: VLESS 转换脚本说明](clash-verge-rev/vless-to-clash-script.md)
+- [CPA 8317 通过 Cloudflare Tunnel 有限公网暴露排障报告](cpa-cloudflare-tunnel-8317-public-api-report-2026-05-15.md)
 - [Mihomo Headless 部署、UI 后端连接与多订阅切换排障报告](mihomo-headless-ui-subscription-switch-report-2026-04-28.md)
 - [s-ui 数据库端口查询说明](s-ui-db-restore-guide.md)
 
@@ -82,6 +84,7 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 - [Neuro 桌宠在 macOS 上的 Java 8、启动器与菜单排障报告](neurolings-macos-java8-launcher-report-2026-05-02.md)
 - [context-mode 项目暂缓采用复查记录](context-mode-deferred-evaluation-report-2026-04-27.md)
 - [cliproxyapi Codex 非流式 content null 报告](cliproxyapi-codex-nonstream-content-null-report-2026-04-14.md)
+- [Codex 切换 provider 后旧会话无法 Resume 排障报告](codex-provider-resume-session-report-2026-05-12.md)
 - [Discord URL handler 报告](discord-url-handler-report-2026-04-14.md)
 - [Kitty Conda 污染报告](kitty-conda-pollution-report-2026-04-12.md)
 - [Audio Separator 长任务容器自动删除与结果丢失问题报告](audio-separator-long-task-container-rm-report-2026-04-18.md)
