@@ -1,0 +1,979 @@
+May 18 12:15:06 chesszyh kernel: [Firmware Bug]: TSC ADJUST: CPU0: -4535180519 force to 0
+May 18 12:15:06 chesszyh kernel: [Firmware Bug]: TSC ADJUST differs within socket(s), fixing all errors
+May 18 12:15:06 chesszyh kernel:   #1  #3  #5  #7  #9 #11 #13 #15
+May 18 12:15:06 chesszyh kernel: hpet_acpi_add: no address or irqs in _CRS
+May 18 12:15:06 chesszyh kernel: i2c_designware i2c_designware.4: [Firmware Bug]: DSDT uses known not-working I2C bus speed 400000, forcing it to 100000
+May 18 12:15:06 chesszyh kernel: i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+May 18 12:15:06 chesszyh kernel: ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+May 18 12:15:06 chesszyh systemd-modules-load[405]: Failed to find module 'v4l2loopback'
+May 18 12:15:06 chesszyh systemd-modules-load[405]: Failed to find module 'vmmon'
+May 18 12:15:06 chesszyh systemd-modules-load[405]: Failed to find module 'vmnet'
+May 18 12:15:06 chesszyh systemd-sysctl[427]: Couldn't write 'bbr' to 'net/ipv4/tcp_congestion_control', ignoring: No such file or directory
+May 18 12:15:06 chesszyh systemd-sysctl[427]: Couldn't write 'fq' to 'net/core/default_qdisc', ignoring: No such file or directory
+May 18 12:15:09 chesszyh systemd-sysv-generator[753]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 18 12:15:09 chesszyh systemd-sysv-generator[753]: Please update package to include a native systemd unit file.
+May 18 12:15:09 chesszyh systemd-sysv-generator[753]: ! This compatibility logic is deprecated, expect removal soon. !
+May 18 12:15:09 chesszyh systemd-sysv-generator[753]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 18 12:15:09 chesszyh systemd-sysv-generator[753]: Please update package to include a native systemd unit file.
+May 18 12:15:09 chesszyh systemd-sysv-generator[753]: ! This compatibility logic is deprecated, expect removal soon. !
+May 18 12:15:09 chesszyh kernel: vmmon: loading out-of-tree module taints kernel.
+May 18 12:15:09 chesszyh systemd-modules-load[790]: Failed to find module 'v4l2loopback'
+May 18 12:15:10 chesszyh systemd-udevd[838]: /usr/lib/udev/rules.d/75-davincipanel.rules:2 Unknown group 'resolve', ignoring.
+May 18 12:15:10 chesszyh kernel: r8169 0000:08:00.0: can't disable ASPM; OS doesn't have ASPM control
+May 18 12:15:10 chesszyh kernel: lenovo_wmi_other DC2A8805-3A8C-41BA-A6F7-092E0089CD3B-6: fan reporting/tuning is unsupported on this device
+May 18 12:15:10 chesszyh kernel: spi-nor spi0.0: supply vcc not found, using dummy regulator
+May 18 12:15:10 chesszyh kernel: spi-nor spi0.1: supply vcc not found, using dummy regulator
+May 18 12:15:10 chesszyh tlp[1001]: Error: TLP's power saving will not apply on boot because tlp.service is not enabled --> Invoke 'systemctl enable tlp.service' to ensure the full functionality of TLP.
+May 18 12:15:10 chesszyh kernel: tlp: vm.laptop_mode is deprecated. Ignoring setting.
+May 18 12:15:10 chesszyh kernel: 
+May 18 12:15:11 chesszyh kernel: NVRM: loading NVIDIA UNIX Open Kernel Module for x86_64  580.159.03  Release Build  (dvs-builder@U22-I3-AM27-29-6)  Fri Apr 24 06:03:03 UTC 2026
+May 18 12:15:11 chesszyh kernel: NVRM: testIfDsmSubFunctionEnabled: GPS ACPI DSM called before _acpiDsmSupportedFuncCacheInit subfunction = 11.
+May 18 12:15:12 chesszyh kernel: NVRM: testIfDsmSubFunctionEnabled: GPS ACPI DSM called before _acpiDsmSupportedFuncCacheInit subfunction = 11.
+May 18 12:15:14 chesszyh (-wrapper)[1463]: lm_sensors.service: Referenced but unset environment variable evaluates to an empty string: BUS_MODULES
+May 18 12:15:14 chesszyh kernel: nvme nvme0: using unchecked data buffer
+May 18 12:15:14 chesszyh bluetoothd[1453]: Failed to set default system config for hci0
+May 18 12:15:14 chesszyh (qbalance)[1457]: irqbalance.service: Referenced but unset environment variable evaluates to an empty string: IRQBALANCE_ARGS
+May 18 12:15:14 chesszyh systemd-logind[1489]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-7.0.4-100.fc43.x86_64.conf:6: Unknown line 'grub_users', ignoring.
+May 18 12:15:14 chesszyh systemd-logind[1489]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-7.0.4-100.fc43.x86_64.conf:7: Unknown line 'grub_arg', ignoring.
+May 18 12:15:14 chesszyh systemd-logind[1489]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-7.0.4-100.fc43.x86_64.conf:8: Unknown line 'grub_class', ignoring.
+May 18 12:15:14 chesszyh systemd-logind[1489]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-0-rescue.conf:6: Unknown line 'grub_users', ignoring.
+May 18 12:15:14 chesszyh systemd-logind[1489]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-0-rescue.conf:7: Unknown line 'grub_arg', ignoring.
+May 18 12:15:14 chesszyh systemd-logind[1489]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-0-rescue.conf:8: Unknown line 'grub_class', ignoring.
+May 18 12:15:14 chesszyh systemd-logind[1489]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-6.19.10-200.fc43.x86_64.conf:6: Unknown line 'grub_users', ignoring.
+May 18 12:15:14 chesszyh systemd-logind[1489]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-6.19.10-200.fc43.x86_64.conf:7: Unknown line 'grub_arg', ignoring.
+May 18 12:15:14 chesszyh systemd-logind[1489]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-6.19.10-200.fc43.x86_64.conf:8: Unknown line 'grub_class', ignoring.
+May 18 12:15:15 chesszyh NetworkManager[1449]: <warn>  [1779077715.4689] device (p2p-dev-wlp0s20f3): error setting IPv4 forwarding to '0': 成功
+May 18 12:15:15 chesszyh (mariadbd)[1861]: mariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER
+May 18 12:15:15 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_TZ.ETMD], AE_NOT_FOUND (20251212/psargs-332)
+May 18 12:15:15 chesszyh kernel: ACPI Error: Aborting method \_SB.IETM._OSC due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 18 12:15:15 chesszyh kernel: Thread-1 (_thre: vm.laptop_mode is deprecated. Ignoring setting.
+May 18 12:15:16 chesszyh abrt-server[2062]: Can't find a meaningful backtrace for hashing in '.'
+May 18 12:15:16 chesszyh abrt-server[2062]: Deleting non-reportable oops '.' because DropNotReportableOopses is set to 'yes'
+May 18 12:15:16 chesszyh abrt-server[2062]: 'post-create' on '/var/spool/abrt/oops-2026-05-18-12:15:16-1678-0' exited with 1
+May 18 12:15:16 chesszyh abrt-server[2062]: Deleting problem directory '/var/spool/abrt/oops-2026-05-18-12:15:16-1678-0'
+May 18 12:15:16 chesszyh abrt-server[2062]: Lock file '.lock' was locked by process 2080, but it crashed?
+May 18 12:15:17 chesszyh abrt-dump-journal-oops[1678]: Reported 1 kernel oopses to Abrt
+May 18 12:15:20 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 18 12:15:20 chesszyh (atd)[2173]: atd.service: Referenced but unset environment variable evaluates to an empty string: OPTS
+May 18 12:15:20 chesszyh sddm-helper[2357]: Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+                                            Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+                                            If this causes problems, reconfigure your locale. See the locale(1) manual
+                                            for more information.
+May 18 12:15:21 chesszyh systemd[2182]: sys-devices-pci0000:00-0000:00:1f.3-sound-card0-controlC0.device: Failed to enqueue SYSTEMD_USER_WANTS job, ignoring: Transaction for sound.target/start is destructive (sound.target has 'stop' job queued, but 'start' is included in transaction).
+May 18 12:15:21 chesszyh systemd[2182]: sys-devices-pci0000:00-0000:00:01.0-0000:01:00.1-sound-card1-controlC1.device: Failed to enqueue SYSTEMD_USER_WANTS job, ignoring: Transaction for sound.target/start is destructive (sound.target has 'stop' job queued, but 'start' is included in transaction).
+May 18 12:15:21 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 18 12:15:21 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.erikreider.swaync.service' is not named after the D-Bus name 'org.freedesktop.Notifications'.
+May 18 12:15:21 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service' is not named after the D-Bus name 'org.freedesktop.FileManager1'.
+May 18 12:15:21 chesszyh dbus-broker-launch[2480]: Ignoring duplicate name 'org.freedesktop.FileManager1' in service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service'
+May 18 12:15:21 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Cache1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Cache1'.
+May 18 12:15:21 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Manager1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Manager1'.
+May 18 12:15:21 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Thumbnailer1'.
+May 18 12:15:21 chesszyh wireplumber[2513]: wplua: [string "common-utils.lua"]:71: attempt to index a nil value (field 'source_plugin')
+                                            stack traceback:
+                                                    [string "common-utils.lua"]:71: in function 'common-utils.get_object_manager'
+                                                    [string "common-utils.lua"]:76: in function 'common-utils.get_default_metadata_object'
+                                                    [string "find-defined-target.lua"]:37: in function <[string "find-defined-target.lua"]:24>
+May 18 12:15:21 chesszyh wireplumber[2513]: wplua: [string "common-utils.lua"]:71: attempt to index a nil value (field 'source_plugin')
+                                            stack traceback:
+                                                    [string "common-utils.lua"]:71: in function 'common-utils.get_object_manager'
+                                                    [string "linking-utils.lua"]:331: in function 'linking-utils.findDefaultLinkable'
+                                                    [string "find-default-target.lua"]:38: in function <[string "find-default-target.lua"]:24>
+May 18 12:15:21 chesszyh wireplumber[2513]: wplua: [string "common-utils.lua"]:71: attempt to index a nil value (field 'source_plugin')
+                                            stack traceback:
+                                                    [string "common-utils.lua"]:71: in function 'common-utils.get_object_manager'
+                                                    [string "common-utils.lua"]:76: in function 'common-utils.get_default_metadata_object'
+                                                    [string "find-defined-target.lua"]:37: in function <[string "find-defined-target.lua"]:24>
+May 18 12:15:21 chesszyh wireplumber[2513]: wplua: [string "common-utils.lua"]:71: attempt to index a nil value (field 'source_plugin')
+                                            stack traceback:
+                                                    [string "common-utils.lua"]:71: in function 'common-utils.get_object_manager'
+                                                    [string "linking-utils.lua"]:331: in function 'linking-utils.findDefaultLinkable'
+                                                    [string "find-default-target.lua"]:38: in function <[string "find-default-target.lua"]:24>
+May 18 12:15:21 chesszyh systemd[2182]: stt-recordd.service: Failed with result 'exit-code'.
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "Date: 2026-05-18 CST\n[12:15:21.388] weston 14.0.2\n               https://wayland.freedesktop.org\n               Bug reports to: https://gitlab.freedesktop.org/wayland/weston/issues/\n               Build: 14.0.2\n[12:15:21.388] Command line: /usr/bin/weston --shell=kiosk --config=/etc/sddm/weston.ini\n[12:15:21.388] OS: Linux, 7.0.4-100.fc43.x86_64, #1 SMP PREEMPT_DYNAMIC Thu May  7 18:45:35 UTC 2026, x86_64\n[12:15:21.388] Flight recorder: enabled\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.388] Using config file '/etc/sddm/weston.ini'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.389] Output repaint window is 7 ms maximum.\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.391] Loading module '/usr/lib64/libweston-14/drm-backend.so'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.395] initializing drm backend\n[12:15:21.395] Trying libseat launcher...\n[12:15:21.395] [libseat/backend/seatd.c:64] Could not connect to socket /run/seatd.sock: No such file or directory\n[12:15:21.395] [libseat/libseat.c:76] Backend 'seatd' failed to open seat, skipping\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.397] [libseat/libseat.c:73] Seat opened with backend 'logind'\n[12:15:21.397] libseat: session control granted\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.399] using /dev/dri/card1\n[12:15:21.399] DRM: supports atomic modesetting\n[12:15:21.399] DRM: supports GBM modifiers\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.399] DRM: supports Atomic async page flip\n[12:15:21.399] DRM: supports picture aspect ratio\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.401] Loading module '/usr/lib64/libweston-14/gl-renderer.so'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.670] Using rendering device: /dev/dri/renderD128\n[12:15:21.670] EGL version: 1.5\n[12:15:21.670] EGL vendor: NVIDIA\n[12:15:21.670] EGL client APIs: OpenGL_ES OpenGL\n[12:15:21.670] EGL features:\n               EGL Wayland extension: yes\n               context priority: yes\n               buffer age: yes\n               partial update: yes\n               swap buffers with damage: yes\n               configless context: yes\n               surfaceless context: yes\n               dmabuf support: modifiers\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.728] GL version: OpenGL ES 3.2 NVIDIA 580.159.03\n[12:15:21.728] GLSL version: OpenGL ES GLSL ES 3.20\n[12:15:21.728] GL vendor: NVIDIA Corporation\n[12:15:21.728] GL renderer: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.729] GL ES 3.2 - renderer features:\n               read-back format: ARGB8888\n               glReadPixels supports y-flip: no\n               glReadPixels supports PBO: yes\n               wl_shm 10 bpc formats: yes\n               wl_shm 16 bpc formats: yes\n               wl_shm half-float formats: no\n               internal R and RG formats: yes\n               OES_EGL_image_external: yes\n[12:15:21.729] Using GL renderer\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.799] event11 - HDA NVidia HDMI/DP,pcm=3: is tagged by udev as: Switch\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.800] event11 - not using input device '/dev/input/event11'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.803] event12 - HDA NVidia HDMI/DP,pcm=7: is tagged by udev as: Switch\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.804] event12 - not using input device '/dev/input/event12'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.807] event13 - HDA NVidia HDMI/DP,pcm=8: is tagged by udev as: Switch\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.807] event13 - not using input device '/dev/input/event13'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.811] event14 - HDA NVidia HDMI/DP,pcm=9: is tagged by udev as: Switch\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.811] event14 - not using input device '/dev/input/event14'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.814] event8  - Video Bus: is tagged by udev as: Keyboard\n[12:15:21.814] event8  - Video Bus: device is a keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.817] event4  - ITE Tech. Inc. ITE Device(8910) Keyboard: is tagged by udev as: Keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.818] event4  - ITE Tech. Inc. ITE Device(8910) Keyboard: device is a keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.821] event5  - ITE Tech. Inc. ITE Device(8910) Wireless Radio Control: is tagged by udev as: Keyboard\n[12:15:21.821] event5  - ITE Tech. Inc. ITE Device(8910) Wireless Radio Control: device is a keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.830] event6  - ELAN06FA:00 04F3:327E Mouse: is tagged by udev as: Mouse\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.831] event6  - ELAN06FA:00 04F3:327E Mouse: device is a pointer\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.835] event7  - ELAN06FA:00 04F3:327E Touchpad: is tagged by udev as: Touchpad\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.838] event7  - ELAN06FA:00 04F3:327E Touchpad: device is a touchpad\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.842] event9  - Ideapad extra buttons: is tagged by udev as: Keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.842] event9  - Ideapad extra buttons: device is a keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.845] event15 - HDA Intel PCH Mic: is tagged by udev as: Switch\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.846] event15 - not using input device '/dev/input/event15'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.849] event16 - HDA Intel PCH Headphone: is tagged by udev as: Switch\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.850] event16 - not using input device '/dev/input/event16'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.853] event2  - Power Button: is tagged by udev as: Keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.853] event2  - Power Button: device is a keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.855] event1  - Power Button: is tagged by udev as: Keyboard\n[12:15:21.856] event1  - Power Button: device is a keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.858] event0  - Lid Switch: is tagged by udev as: Switch\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.858] event0  - Lid Switch: device is a switch device\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.861] event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard\n[12:15:21.861] event3  - AT Translated Set 2 keyboard: device is a keyboard\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.864] event10 - PC Speaker: not tagged as supported input device\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.865] event10 - not using input device '/dev/input/event10'\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.877] libinput: configuring device \"Video Bus\".\n[12:15:21.877] libinput: configuring device \"ITE Tech. Inc. ITE Device(8910) Keyboard\".\n[12:15:21.877] libinput: configuring device \"ITE Tech. Inc. ITE Device(8910) Wireless Radio Control\".\n[12:15:21.877] libinput: configuring device \"ELAN06FA:00 04F3:327E Mouse\".\n[12:15:21.877] libinput: configuring device \"ELAN06FA:00 04F3:327E Touchpad\".\n[12:15:21.877] libinput: configuring device \"Ideapad extra buttons\".\n[12:15:21.877] libinput: configuring device \"Power Button\".\n[12:15:21.877] libinput: configuring device \"Power Button\".\n[12:15:21.877] libinput: configuring device \"Lid Switch\".\n[12:15:21.877] libinput: configuring device \"AT Translated Set 2 keyboard\".\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.907] DRM: head 'DP-1' found, connector 128 is disconnected.\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.908] DRM: head 'DP-2' found, connector 132 is disconnected.\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.908] DRM: head 'HDMI-A-1' found, connector 136 is disconnected.\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.915] DRM: head 'eDP-1' found, connector 139 is connected, EDID make 'BOE', model '0x0B8B', serial '0x00000001'\n               Supported EOTF modes: SDR, ST2084\n               Supported colorimetry modes: default, BT.2020 (RGB)\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.915] Registered plugin API 'weston_drm_output_api_v1' of size 40\n[12:15:21.915] Registered plugin API 'weston_drm_virtual_output_api_v2' of size 48\n[12:15:21.915] Color manager: no-op\n                 protocol support: no\n[12:15:21.915] Output 'eDP-1' attempts EOTF mode SDR and colorimetry mode default.\n[12:15:21.915] Output 'eDP-1' using color profile: stock sRGB color profile\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.915] Chosen EGL config details: id:  24 rgba: 8 8 8 0 buf: 24 dep:  0 stcl: 0 int: 0-1 type: win|pbf vis_id: XRGB8888 (0x34325258)\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.919] Initialized backlight for head 'eDP-1', device /sys/class/backlight/nvidia_0\n[12:15:21.919] Output eDP-1 (crtc 62) video modes:\n               2560x1600@60.0, preferred, current, 287.2 MHz\n               2560x1600@240.0, 1148.9 MHz\n[12:15:21.919] associating input device event8 with output eDP-1 (none by udev)\n[12:15:21.919] associating input device event4 with output eDP-1 (none by udev)\n[12:15:21.919] associating input device event5 with output eDP-1 (none by udev)\n[12:15:21.919] associating input device event6 with output eDP-1 (none by udev)\n[12:15:21.919] associating input device event7 with output eDP-1 (none by udev)\n[12:15:21.919] associating input device event9 with output eDP-1 (none by udev)\n[12:15:21.919] associating input device event2 with output eDP-1 (none by udev)\n[12:15:21.920] associating input device event1 with output eDP-1 (none by udev)\n[12:15:21.920] associating input device event0 with output eDP-1 (none by udev)\n[12:15:21.920] associating input device event3 with output eDP-1 (none by udev)\n"
+May 18 12:15:21 chesszyh sddm-helper-start-wayland[2602]: "[12:15:21.920] Output 'eDP-1' enabled with head(s) eDP-1\n[12:15:21.920] Compositor capabilities:\n               arbitrary surface rotation: yes\n               screen capture uses y-flip: yes\n               cursor planes: yes\n               arbitrary resolutions: no\n               view mask clipping: yes\n               explicit sync: yes\n               color operations: no\n               presentation clock: CLOCK_MONOTONIC, id 1\n               presentation clock resolution: 0.000000001 s\n[12:15:21.920] Loading module '/usr/lib64/weston/kiosk-shell.so'\n"
+May 18 12:15:22 chesszyh dbus-broker-launch[2823]: Service file '/usr/share//dbus-1/services/org.erikreider.swaync.service' is not named after the D-Bus name 'org.freedesktop.Notifications'.
+May 18 12:15:22 chesszyh dbus-broker-launch[2823]: Service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service' is not named after the D-Bus name 'org.freedesktop.FileManager1'.
+May 18 12:15:22 chesszyh dbus-broker-launch[2823]: Ignoring duplicate name 'org.freedesktop.FileManager1' in service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service'
+May 18 12:15:22 chesszyh dbus-broker-launch[2823]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Cache1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Cache1'.
+May 18 12:15:22 chesszyh dbus-broker-launch[2823]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Manager1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Manager1'.
+May 18 12:15:22 chesszyh dbus-broker-launch[2823]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Thumbnailer1'.
+May 18 12:15:22 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 18 12:15:22 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 18 12:15:22 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 18 12:15:22 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 18 12:15:22 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 18 12:15:22 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:15:23 chesszyh sddm-helper[3743]: Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+                                            Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+                                            If this causes problems, reconfigure your locale. See the locale(1) manual
+                                            for more information.
+May 18 12:15:24 chesszyh sddm-helper[3743]: gkr-pam: unable to locate daemon control file
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.132] caught signal 15\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.132] event8  - Video Bus: device removed\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.133] event4  - ITE Tech. Inc. ITE Device(8910) Keyboard: device removed\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.134] event5  - ITE Tech. Inc. ITE Device(8910) Wireless Radio Control: device removed\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.135] event6  - ELAN06FA:00 04F3:327E Mouse: device removed\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.135] event7  - ELAN06FA:00 04F3:327E Touchpad: device removed\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.136] event9  - Ideapad extra buttons: device removed\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.136] event2  - Power Button: device removed\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.137] event1  - Power Button: device removed\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.137] event0  - Lid Switch: device removed\n"
+May 18 12:15:24 chesszyh sddm-helper-start-wayland[2602]: "[12:15:24.138] event3  - AT Translated Set 2 keyboard: device removed\n"
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 136 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 136 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 164 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 164 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 154 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 154 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 162 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 162 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 152 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 152 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 142 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 142 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 160 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 160 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 150 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 150 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 140 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 140 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 159 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 159 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 149 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 149 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 139 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 139 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 157 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 157 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 147 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 147 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 137 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 137 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 165 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 165 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 155 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 155 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 145 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 145 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 135 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 135 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 163 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 163 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 153 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 153 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 143 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 143 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 161 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 161 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 151 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 151 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 141 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 141 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 158 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 158 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 148 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 148 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 138 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 138 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 166 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 166 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 156 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 156 affinity is now unmanaged
+May 18 12:15:24 chesszyh irqbalance[1457]: Cannot change IRQ 146 affinity: Permission denied
+May 18 12:15:24 chesszyh irqbalance[1457]: IRQ 146 affinity is now unmanaged
+May 18 12:15:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:15:29 chesszyh hyprpolkitagent[5506]: QFont::fromString: Invalid description '(empty)'
+May 18 12:15:29 chesszyh xwaylandvideobridge[5496]: QFont::fromString: Invalid description '(empty)'
+May 18 12:15:30 chesszyh Telegram[5497]: QFont::fromString: Invalid description '(empty)'
+May 18 12:15:30 chesszyh swaync[5510]: Failed to deserialize "image-visibility" property of type "SwayNotificationCenterImageVisibility" for an object of type "SwayNotificationCenterConfigModel"
+May 18 12:15:30 chesszyh swaync[5510]: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+May 18 12:15:30 chesszyh /usr/libexec/xdg-desktop-portal[5572]: Realtime error: Could not get pidns for pid 6192: Could not fstatat ns/pid: 不是目录
+May 18 12:15:30 chesszyh /usr/libexec/xdg-desktop-portal[5572]: Realtime error: Could not get pidns for pid 6192: Could not fstatat ns/pid: 不是目录
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:22:5-23:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:57:5-58:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:71:5-72:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:82:5-83:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:87:5-88:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:92:5-93:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:96:5-97:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:104:5-105:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:113:5-114:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:119:5-120:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:123:5-124:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:129:5-130:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:137:5-138:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:146:5-147:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:154:5-155:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:165:5-166:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:169:5-170:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:177:5-178:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:225:5-226:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:230:5-231:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:261:5-262:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:265:5-266:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:281:5-282:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:287:5-288:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:292:5-293:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:297:5-298:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:306:5-307:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:311:5-312:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:319:2-320:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: Theme parser warning: style.css:328:5-329:1: Expected ';' at end of block
+May 18 12:15:30 chesszyh swaync[5510]: baseWidget.vala:47: notifications: Config not found! Using default config...
+May 18 12:15:30 chesszyh swaync[5510]: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+May 18 12:15:30 chesszyh swaync[5510]: baseWidget.vala:47: notifications: Config not found! Using default config...
+May 18 12:15:30 chesszyh abrt-server[6361]: Executable '/home/chesszyh/.config/hypr/UserScripts/Weather.py' doesn't belong to any package and ProcessUnpackaged is set to 'no'
+May 18 12:15:30 chesszyh abrt-server[6361]: 'post-create' on '/var/spool/abrt/Python3-2026-05-18-12:15:30-6260' exited with 1
+May 18 12:15:30 chesszyh abrt-server[6361]: Deleting problem directory '/var/spool/abrt/Python3-2026-05-18-12:15:30-6260'
+May 18 12:15:31 chesszyh Telegram[5497]: QPainter::begin: Paint device returned engine == 0, type: 2
+May 18 12:15:31 chesszyh Telegram[5497]: QWidget::render: Cannot render with an inactive painter
+May 18 12:15:31 chesszyh clash-verge[5470]: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
+May 18 12:15:31 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 12:15:31 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 12:15:31 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 18 12:15:31 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 18 12:15:32 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 18 12:15:32 chesszyh NetworkManager[1449]: ((../src/libnm-systemd-core/src/libsystemd/sd-event/sd-event.c:4488)): assertion '<dropped>' failed
+May 18 12:15:32 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 18 12:15:36 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:15:39 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 12:15:39 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 12:15:49 chesszyh Telegram[5497]: qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+May 18 12:15:49 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 12:15:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:16:05 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:16:19 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:16:45 chesszyh org.gnome.Nautilus[11845]: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+May 18 12:16:45 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:16:46 chesszyh goa-identity-se[11934]: GoaKerberosIdentityManager: Using polling for change notification for credential cache type 'KCM'
+May 18 12:16:47 chesszyh gnome-keyring-daemon[12093]: discover_other_daemon: 1
+May 18 12:16:47 chesszyh gnome-keyring-daemon[3790]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 18 12:16:52 chesszyh /usr/libexec/xdg-desktop-portal[5572]: A backend call failed: Inhibiting other than idle not supported
+May 18 12:16:56 chesszyh gvfsd-wsdd[12035]: Unable to connect to the wsdd socket: 没有那个文件或目录
+May 18 12:16:56 chesszyh gvfsd-network[12022]: Couldn't create directory monitor on wsdd:///. Error: 自动挂载失败：无法与底层 wsdd 守护程序建立连接。
+May 18 12:16:56 chesszyh gvfsd-network[12022]: Couldn't create directory monitor on wsdd:///. Error: 自动挂载失败：org.gtk.vfs.mountpoint_wsdd 的挂载点已在运行
+May 18 12:17:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:17:21 chesszyh gvfsd-wsdd[14189]: Unable to connect to the wsdd socket: 没有那个文件或目录
+May 18 12:17:21 chesszyh gvfsd-network[12022]: Couldn't create directory monitor on wsdd:///. Error: 自动挂载失败：无法与底层 wsdd 守护程序建立连接。
+May 18 12:17:21 chesszyh gvfsd-network[12022]: Couldn't create directory monitor on wsdd:///. Error: 自动挂载失败：org.gtk.vfs.mountpoint_wsdd 的挂载点已在运行
+May 18 12:17:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:17:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:17:57 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:18:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:18:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:18:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:19:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:19:18 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:19:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:19:37 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:20:03 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:20:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:20:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:20:35 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:20:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:20:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:21:05 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:21:29 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:21:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:22:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:22:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:22:52 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:23:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:23:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:23:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:23:52 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:24:04 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:24:12 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 12:24:14 chesszyh /usr/libexec/xdg-desktop-portal[5572]: A backend call failed: Failed to register object vtable (File exists)
+May 18 12:24:19 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:24:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:24:37 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:24:55 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:24:57 chesszyh /usr/libexec/xdg-desktop-portal[5572]: A backend call failed: Inhibiting other than idle not supported
+May 18 12:25:00 chesszyh org.gnome.Evince[40713]: Using GtkSettings:gtk-application-prefer-dark-theme together with HdyStyleManager is unsupported. Please use HdyStyleManager:color-scheme instead.
+May 18 12:25:03 chesszyh /usr/libexec/xdg-desktop-portal[5572]: A backend call failed: Inhibiting other than idle not supported
+May 18 12:25:11 chesszyh /usr/libexec/xdg-desktop-portal[5572]: A backend call failed: Inhibiting other than idle not supported
+May 18 12:25:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:25:15 chesszyh /usr/libexec/xdg-desktop-portal[5572]: A backend call failed: Inhibiting other than idle not supported
+May 18 12:25:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:25:33 chesszyh Telegram[5497]: qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+May 18 12:25:42 chesszyh Telegram[5497]: qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+May 18 12:25:52 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:26:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:26:23 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:26:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:27:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:27:31 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:27:44 chesszyh irqbalance[1457]: Cannot change IRQ 144 affinity: Permission denied
+May 18 12:27:44 chesszyh irqbalance[1457]: IRQ 144 affinity is now unmanaged
+May 18 12:27:57 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:28:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:28:36 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:28:54 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:29:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:29:23 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:29:31 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:29:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:30:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:30:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:30:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:31:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:31:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:31:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:32:18 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:32:33 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:32:47 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:33:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:33:39 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:33:57 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:34:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:34:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:34:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:35:10 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:35:36 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:35:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:36:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:36:49 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:37:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:37:31 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:37:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:38:00 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:38:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:38:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:38:57 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:39:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:39:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:39:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:39:55 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:40:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:40:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:40:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:40:55 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:41:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:41:32 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:41:47 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:42:03 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:42:07 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 18 12:42:29 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:42:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:43:23 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:43:29 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 12:43:29 chesszyh sudo[128051]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: 权限不够
+May 18 12:43:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:44:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:44:54 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:45:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:45:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:45:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:45:58 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:46:36 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:46:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:47:07 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:47:22 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:47:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:48:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:48:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:48:55 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:49:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:49:35 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:50:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:50:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:50:29 chesszyh localsearch-3[11873]: Could not ask extractor to update: 连接已关闭
+May 18 12:50:41 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:50:56 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:51:10 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:51:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:52:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:52:19 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:53:13 chesszyh systemd[2182]: aria2c.service: Main process exited, code=killed, status=9/KILL
+May 18 12:53:13 chesszyh systemd[2182]: aria2c.service: Failed with result 'signal'.
+May 18 12:53:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:53:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:53:34 chesszyh systemd[2182]: aria2c.service: Main process exited, code=killed, status=9/KILL
+May 18 12:53:34 chesszyh systemd[2182]: aria2c.service: Failed with result 'signal'.
+May 18 12:53:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:53:59 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:54:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:55:04 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:55:35 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 12:55:37 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 12:55:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:56:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:56:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:56:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:56:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:57:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:57:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:57:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:57:55 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:58:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:58:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:58:41 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:59:02 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:59:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:59:29 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 12:59:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:00:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:00:36 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:00:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:00:59 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:01:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:01:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:01:58 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:02:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:02:48 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:03:18 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:03:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:03:58 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:04:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:04:31 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:04:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:05:02 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:05:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:05:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:06:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:06:29 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:06:55 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:07:14 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:07:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:07:45 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:08:02 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:08:16 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:08:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:09:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:10:08 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:10:47 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:11:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:11:32 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:11:47 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:12:05 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:12:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:12:36 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:12:51 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:13:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:13:37 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:14:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:15:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:15:32 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:15:48 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:16:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:16:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:17:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:17:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:18:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:18:52 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:18:59 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:19:16 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:19:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:20:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:20:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:20:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:20:57 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:21:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:21:51 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:22:10 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:23:23 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:24:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:24:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:24:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:24:58 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:25:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:25:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:26:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:26:23 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:26:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:26:54 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 13:27:08 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:28:10 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:28:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:29:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:29:32 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:29:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:30:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:30:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:30:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:31:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:31:34 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:32:02 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:32:18 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:32:56 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:33:05 chesszyh chronyd[1462]: Jitter of 95.111.202.5 (2.fedora.pool.ntp.org) exceeds maxjitter of 1.000 seconds
+May 18 13:33:22 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:33:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:34:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:34:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:34:58 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:35:35 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:35:54 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:36:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:36:31 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:36:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:37:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:37:58 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:38:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:38:52 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:39:07 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:39:23 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:40:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:40:10 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:40:51 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:41:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:41:55 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:42:20 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:42:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:42:59 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:43:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:43:39 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:43:56 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:44:22 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:44:36 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:45:33 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:48:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:48:34 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:48:51 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:49:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:49:48 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:50:07 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:50:22 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:50:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:51:05 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:51:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:51:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:51:52 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:52:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:52:39 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:52:47 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:52:58 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:53:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:53:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:53:36 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 13:53:37 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:53:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:54:16 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:55:05 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:55:19 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:55:35 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:55:51 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:56:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:56:54 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:57:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:57:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:57:33 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:58:36 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 13:59:02 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:00:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:00:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:00:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:01:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:01:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:01:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:01:49 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:02:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:02:54 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:03:22 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:03:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:04:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:04:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:05:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:05:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:05:45 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:06:02 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:06:16 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:06:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:07:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:07:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:07:45 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:08:00 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:08:18 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:09:00 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:10:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:10:54 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:11:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:12:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:13:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:14:39 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:14:56 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:15:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:15:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:15:52 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:16:16 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:16:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:17:10 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:17:36 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:17:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:17:58 chesszyh gnome-keyring-daemon[3790]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 18 14:18:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:18:49 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:19:05 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:19:20 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:19:48 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:20:05 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:20:45 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:21:00 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 14:21:01 chesszyh sudo[515089]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: 权限不够
+May 18 14:21:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:21:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:21:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:22:07 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:22:22 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:22:48 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:23:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:23:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:24:10 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:24:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:24:49 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:25:07 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:25:22 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:25:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:26:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:26:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:26:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:26:56 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:27:18 chesszyh localsearch-3[11873]: Could not ask extractor to update: 连接已关闭
+May 18 14:27:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:27:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:28:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:28:32 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:28:49 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:29:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:29:29 chesszyh localsearch-3[11873]: Could not ask extractor to update: 连接已关闭
+May 18 14:29:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:29:54 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:30:31 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:30:59 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:31:18 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:31:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:31:59 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:32:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:32:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:32:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:32:59 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:33:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:33:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:33:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:33:57 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:34:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:34:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:34:40 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:34:59 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:35:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:35:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:35:38 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 14:35:39 chesszyh sudo[575191]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: 权限不够
+May 18 14:35:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:36:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:36:16 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:36:32 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:36:47 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:37:03 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.erikreider.swaync.service' is not named after the D-Bus name 'org.freedesktop.Notifications'.
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service' is not named after the D-Bus name 'org.freedesktop.FileManager1'.
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Ignoring duplicate name 'org.freedesktop.FileManager1' in service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service'
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Cache1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Cache1'.
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Manager1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Manager1'.
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Thumbnailer1'.
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.erikreider.swaync.service' is not named after the D-Bus name 'org.freedesktop.Notifications'.
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service' is not named after the D-Bus name 'org.freedesktop.FileManager1'.
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Ignoring duplicate name 'org.freedesktop.FileManager1' in service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service'
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Cache1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Cache1'.
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Manager1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Manager1'.
+May 18 14:37:03 chesszyh dbus-broker-launch[2480]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Thumbnailer1'.
+May 18 14:37:18 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:37:39 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:37:56 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:38:04 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 18 14:38:33 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:38:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:39:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:39:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:39:36 chesszyh systemd-sysv-generator[613234]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 18 14:39:36 chesszyh systemd-sysv-generator[613234]: Please update package to include a native systemd unit file.
+May 18 14:39:36 chesszyh systemd-sysv-generator[613234]: ! This compatibility logic is deprecated, expect removal soon. !
+May 18 14:39:36 chesszyh systemd-sysv-generator[613234]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 18 14:39:36 chesszyh systemd-sysv-generator[613234]: Please update package to include a native systemd unit file.
+May 18 14:39:36 chesszyh systemd-sysv-generator[613234]: ! This compatibility logic is deprecated, expect removal soon. !
+May 18 14:39:37 chesszyh systemd-udevd[838]: /usr/lib/udev/rules.d/75-davincipanel.rules:2 Unknown group 'resolve', ignoring.
+May 18 14:39:49 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:39:56 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:40:13 chesszyh dracut[615654]: If you need to use bluetooth, please include it explicitly.
+May 18 14:40:14 chesszyh dracut[615654]: If you need to use bluetooth, please include it explicitly.
+May 18 14:40:20 chesszyh kernel: block nvme0n1: the capability attribute has been deprecated.
+May 18 14:40:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:40:54 chesszyh systemd-sysv-generator[630302]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 18 14:40:54 chesszyh systemd-sysv-generator[630302]: Please update package to include a native systemd unit file.
+May 18 14:40:54 chesszyh systemd-sysv-generator[630302]: ! This compatibility logic is deprecated, expect removal soon. !
+May 18 14:40:54 chesszyh systemd-sysv-generator[630302]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 18 14:40:54 chesszyh systemd-sysv-generator[630302]: Please update package to include a native systemd unit file.
+May 18 14:40:54 chesszyh systemd-sysv-generator[630302]: ! This compatibility logic is deprecated, expect removal soon. !
+May 18 14:40:58 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:41:11 chesszyh systemd-sysv-generator[638912]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 18 14:41:11 chesszyh systemd-sysv-generator[638912]: Please update package to include a native systemd unit file.
+May 18 14:41:11 chesszyh systemd-sysv-generator[638912]: ! This compatibility logic is deprecated, expect removal soon. !
+May 18 14:41:11 chesszyh systemd-sysv-generator[638912]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 18 14:41:11 chesszyh systemd-sysv-generator[638912]: Please update package to include a native systemd unit file.
+May 18 14:41:11 chesszyh systemd-sysv-generator[638912]: ! This compatibility logic is deprecated, expect removal soon. !
+May 18 14:41:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:41:41 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:42:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:42:37 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:42:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:43:19 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:43:38 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 18 14:43:48 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:44:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:44:39 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:44:55 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:45:05 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 14:45:05 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 14:45:08 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:45:47 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:46:02 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:46:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:46:42 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:47:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:47:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:47:32 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:47:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:47:57 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:48:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:48:26 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:48:54 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:49:45 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:50:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:50:29 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:50:47 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:51:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:51:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:51:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:52:03 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:52:19 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:52:34 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:52:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:53:07 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:53:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:53:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:53:55 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:54:14 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 14:55:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:10:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:12:22 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 18 15:12:28 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 18 15:13:48 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 18 15:14:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:15:00 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:15:34 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:16:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:16:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:18:03 chesszyh gnome-keyring-daemon[3790]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 18 15:21:52 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:22:00 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 15:22:04 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:22:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:25:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:40:45 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 15:58:08 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 16:10:00 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 16:11:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 16:18:03 chesszyh gnome-keyring-daemon[3790]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 18 16:28:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 16:40:55 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 16:42:47 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q44.WM00], AE_NOT_FOUND (20251212/psargs-332)
+May 18 16:42:47 chesszyh kernel: ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q44 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 18 16:42:48 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q44.WM00], AE_NOT_FOUND (20251212/psargs-332)
+May 18 16:42:48 chesszyh kernel: ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q44 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 18 16:42:48 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q44.WM00], AE_NOT_FOUND (20251212/psargs-332)
+May 18 16:42:48 chesszyh kernel: ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q44 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 18 16:42:48 chesszyh /usr/libexec/xdg-desktop-portal[5572]: Realtime error: Could not get pidns for pid 1091869: Could not fstatat ns/pid: 不是目录
+May 18 16:46:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:02:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:09:00 chesszyh localsearch-3[11873]: Could not ask extractor to update: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 对象在路径“/org/freedesktop/Tracker3/Extract”处不存在
+May 18 17:12:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:15:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:16:07 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:16:56 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:17:10 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:17:35 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:18:03 chesszyh gnome-keyring-daemon[3790]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 18 17:18:03 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:18:31 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:21:39 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:22:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:24:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:24:34 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:26:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:26:37 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:31:25 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:32:04 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:32:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:35:29 chesszyh swaync[5510]: sway_notification_center_notification_request_dismiss_notification: assertion 'SWAY_NOTIFICATION_CENTER_IS_NOTIFICATION (self)' failed
+May 18 17:49:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 17:55:37 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q38.PNOT], AE_NOT_FOUND (20251212/psargs-332)
+May 18 17:55:37 chesszyh kernel: ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q38 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 18 17:55:37 chesszyh tlp[1328923]: Error: TLP's power saving will not apply on boot because tlp.service is not enabled --> Invoke 'systemctl enable tlp.service' to ensure the full functionality of TLP.
+May 18 17:55:37 chesszyh tlp[1328926]: Error: TLP's power saving will not apply on boot because tlp.service is not enabled --> Invoke 'systemctl enable tlp.service' to ensure the full functionality of TLP.
+May 18 17:55:37 chesszyh kernel: tlp: vm.laptop_mode is deprecated. Ignoring setting.
+May 18 17:57:00 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q37.PNOT], AE_NOT_FOUND (20251212/psargs-332)
+May 18 17:57:00 chesszyh kernel: ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q37 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 18 17:57:01 chesszyh tlp[1333363]: Error: TLP's power saving will not apply on boot because tlp.service is not enabled --> Invoke 'systemctl enable tlp.service' to ensure the full functionality of TLP.
+May 18 17:57:01 chesszyh kernel: tlp: vm.laptop_mode is deprecated. Ignoring setting.
+May 18 17:57:01 chesszyh tlp[1333378]: Error: TLP's power saving will not apply on boot because tlp.service is not enabled --> Invoke 'systemctl enable tlp.service' to ensure the full functionality of TLP.
+May 18 18:06:19 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:06:34 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:06:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:07:07 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:07:41 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:07:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:08:22 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:08:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:09:01 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:09:15 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:09:30 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:10:20 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:10:59 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:11:56 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:13:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:13:41 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:14:09 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:14:23 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:14:54 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 18:15:37 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:16:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:17:07 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:17:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:17:50 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:18:03 chesszyh gnome-keyring-daemon[3790]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 18 18:18:10 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:18:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:18:44 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:19:05 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:19:31 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:35:27 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:35:39 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 18:52:06 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 19:00:55 chesszyh localsearch-3[11873]: Could not ask extractor to update: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 对象在路径“/org/freedesktop/Tracker3/Extract”处不存在
+May 18 19:09:16 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 19:14:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 19:18:03 chesszyh gnome-keyring-daemon[3790]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 18 19:22:01 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 19:31:29 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 19:46:41 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 19:49:37 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 19:57:05 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 19:58:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 20:14:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 20:16:46 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 20:18:03 chesszyh gnome-keyring-daemon[3790]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 18 20:33:23 chesszyh localsearch-3[11873]: Could not ask extractor to update: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 对象在路径“/org/freedesktop/Tracker3/Extract”处不存在
+May 18 20:33:47 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 20:51:12 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:03:38 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:04:17 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:04:34 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:04:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:05:16 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:05:41 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:06:11 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:07:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:07:53 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:08:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:08:37 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:08:51 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:09:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:15:28 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:18:03 chesszyh gnome-keyring-daemon[3790]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 18 21:31:49 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:32:13 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:33:20 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:49:19 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 21:49:20 chesszyh waybar[5514]: Unable to replace properties on 0: Error getting properties for ID
+May 18 21:49:21 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 21:49:30 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 21:50:43 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 22:07:24 chesszyh pipewire[2506]: mod.raop-sink: sess.latency.msec 250.000000 should be an integer multiple of rtp.ptime 7.981859
+May 18 22:07:54 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 22:07:56 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 22:07:57 chesszyh waybar[5514]: Status Notifier Item with bus name ':1.31' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 18 22:09:13 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:13 chesszyh sudo[2233558]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:14 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:14 chesszyh sudo[2233668]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:17 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:17 chesszyh sudo[2234035]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:17 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:17 chesszyh sudo[2234045]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:17 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:17 chesszyh sudo[2234055]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:17 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:17 chesszyh sudo[2234066]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:17 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:17 chesszyh sudo[2234076]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:17 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:17 chesszyh sudo[2234086]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:17 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:17 chesszyh sudo[2234106]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:17 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:17 chesszyh sudo[2234163]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:19 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:19 chesszyh sudo[2234527]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:19 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:20 chesszyh sudo[2234537]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:20 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:20 chesszyh sudo[2234547]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:20 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:20 chesszyh sudo[2234557]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:20 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:20 chesszyh sudo[2234569]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:20 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:20 chesszyh sudo[2234706]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 18 22:09:21 chesszyh kernel: ideapad_acpi VPC2004:00: conservation_mode attribute has been deprecated, see charge_types.
+May 18 22:09:21 chesszyh systemd-logind[1489]: Existing logind session ID 1 used by new audit session, ignoring.
+May 18 22:09:21 chesszyh sudo[2235193]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied

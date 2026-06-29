@@ -1,0 +1,15 @@
+stress-ng: info:  [2237801] setting to a 3 mins run per stressor
+stress-ng: info:  [2237801] dispatching hogs: 32 cpu
+stress-ng: info:  [2237801] note: turbo is disabled and this may impact top performance; setting /sys/devices/system/cpu/intel_pstate/no_turbo to 0 may improve performance.
+stress-ng: info:  [2237801] note: 32 cpus have scaling governors set to powersave and this may impact performance; setting /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor to 'performance' may improve performance
+stress-ng: metrc: [2237801] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [2237801]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [2237801] cpu             3790784    180.00   5231.11      5.34     21059.65         723.92
+stress-ng: info:  [2237801] skipped: 0
+stress-ng: info:  [2237801] passed: 32: cpu (32)
+stress-ng: info:  [2237801] failed: 0
+stress-ng: info:  [2237801] metrics untrustworthy: 0
+stress-ng: info:  [2237801] successful run completed in 3 mins
+180.053032 sec
+Avg_MHz	Busy%	Bzy_MHz	TSC_MHz	CPU%c1	CPU%c6	CoreTmp	PkgTmp	PkgWatt	GFXWatt	RAMWatt
+1761	98.91	1781	2419	0.01	0.10	68	72	42.50	0.00	0.00

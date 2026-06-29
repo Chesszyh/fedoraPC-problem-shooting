@@ -1,0 +1,208 @@
+Idle…: 0%
+LENOVO 82WK
+│
+├─06FA:00 04F3:327E:
+│     Device ID:          9c25200896802993434e33fef0759312cfe72b4c
+│     Current version:    0x0004
+│     Bootloader Version: 0x0001
+│     Vendor:             Elan (HIDRAW:0x04F3)
+│     GUIDs:              91a0ef22-53f1-53b1-a3b3-709ea0b7921a ← HIDRAW\VEN_04F3&DEV_327E
+│                         b817bc1d-d677-5216-b3a6-57869be31d6f ← HIDRAW\VEN_04F3&DEV_327E&MOD_0028
+│                         682e4c5b-5211-578c-9e43-00a4997eb822 ← ELANTP\ICTYPE_11&MOD_0028
+│                         6c60d9fd-c06f-5837-9cf5-5115706a8762 ← ELANTP\ICTYPE_11&MOD_0028&DRIVER_HID
+│     Device Flags:       • Internal device
+│                         • Updatable
+│                         • Unsigned Payload
+│                         • Can tag for emulation
+│   
+├─13th Gen Intel Core™ i9-13900HX:
+│     Device ID:          4bde70ba4e39b28f9eab1628f9dd6e6244c03027
+│     Current version:    0x00000133
+│     Vendor:             Intel
+│     GUIDs:              3d4645d8-13fe-541a-ac5c-7d9d944e4500 ← CPUID\PRO_0&FAM_06&MOD_B7
+│                         988c4cf1-ace4-5eb5-b26c-905ff236f412 ← CPUID\PRO_0&FAM_06&MOD_B7&STP_1
+│     Device Flags:       • Internal device
+│   
+├─BIOS1:
+│     Device ID:          a41715edae830e26b4c4a9246ffa62cddf8f7338
+│     Summary:            Memory Technology Device
+│     Vendor:             Intel (PCI:0x8086)
+│     GUIDs:              cc083504-3412-5e26-ad02-66c3fb6335ac ← MTD\NAME_BIOS1
+│                         f0eb7460-6c32-5542-885b-2f2cc1ce6520 ← MTD\VEN_8086&DEV_7A24
+│                         54e184b8-ca6b-5857-bdb0-9702f7d14997 ← MTD\VEN_8086&DEV_7A24&NAME_BIOS1
+│     Device Flags:       • Internal device
+│                         • Updatable
+│                         • Needs a reboot after installation
+│                         • Cryptographic hash verification is available
+│                         • Can tag for emulation
+│   
+├─MZVL21T0HCLR-00BL2:
+│     Device ID:          03281da317dccd2b18de2bd1cc70a782df40ed7e
+│     Summary:            NVM Express solid state drive
+│     Current version:    CL1QGXA7
+│     Vendor:             Samsung (PCI:0x144D)
+│     Serial Number:      S64NNF0W423085
+│     GUIDs:              bec63ed7-a95f-54fe-b8cc-8e9fee64ba5a ← NVME\VEN_144D&DEV_A80A
+│                         310f81b5-6fce-501e-acfb-487d10501e78 ← NVME\VEN_144D&DEV_A80A&SUBSYS_144DA801
+│                         613af693-c298-5bbc-bcbe-238476209b97 ← SAMSUNG MZVL21T0HCLR-00BL2
+│     Device Flags:       • Internal device
+│                         • Updatable
+│                         • System requires external power source
+│                         • Needs a reboot after installation
+│                         • Device is usable for the duration of the update
+│                         • Signed Payload
+│                         • Can tag for emulation
+│   
+├─System Firmware:
+│ │   Device ID:          97a155291f41b383be1520ac4355012ecb875e3f
+│ │   Summary:            UEFI System Resource Table device (updated via NVRAM)
+│ │   Current version:    1898135606
+│ │   Minimum Version:    1380122624
+│ │   Vendor:             LENOVO (DMI:LENOVO)
+│ │   Update State:       Success
+│ │   GUID:               fe656483-5a52-4b1e-81d9-ae68deacc0b5
+│ │   Device Flags:       • Internal device
+│ │                       • Updatable
+│ │                       • System requires external power source
+│ │                       • Needs a reboot after installation
+│ │                       • Cryptographic hash verification is available
+│ │                       • Device is usable for the duration of the update
+│ │   Device Requests:    • Message
+│ │ 
+│ ├─Ideapad Products:
+│ │     Device ID:        6924110cde4fa051bfdc600a60620dc7aa9d3c6a
+│ │     Summary:          UEFI Platform Key
+│ │     Current version:  2012
+│ │     Vendor:           Unknown
+│ │     GUID:             a02e3c5c-6ee7-5d56-87fa-64f2ac6d3d5c ← UEFI\CRT_AE3BB84D4581781587A40E4315B48DF56938FF6C
+│ │     Device Flags:     • Internal device
+│ │   
+│ ├─UEFI Key Exchange Key:
+│ │ │   Device ID:        2a4c23bfb79b5dabe474cb7b1b3e604645d6f9c6
+│ │ │   Device Flags:     • Internal device
+│ │ │ 
+│ │ └─KEK CA:
+│ │       Device ID:      b7a1d3d90faa1f6275d9a98da4fb3be7118e61c7
+│ │       Current version: 2011
+│ │       Vendor:         Microsoft (UEFI:Microsoft)
+│ │       GUIDs:          814e950f-1449-566a-a190-42c9d3a3a2df ← UEFI\VENDOR_Microsoft&NAME_Microsoft-KEK-CA
+│ │                       dfa66406-6568-5bdf-bb8e-b53ddb4be4cf ← UEFI\CRT_9F402B1CC0243CBEDC58A525789816CCCA7687A9
+│ │       Device Flags:   • Internal device
+│ │                       • Updatable
+│ │                       • Needs a reboot after installation
+│ │                       • Device is usable for the duration of the update
+│ │                       • Signed Payload
+│ │                       • Can tag for emulation
+│ │     
+│ ├─UEFI Signature Database:
+│ │ │   Device ID:        0352a8acc949c7df21fec16e566ba9a74e797a97
+│ │ │   Device Flags:     • Internal device
+│ │ │ 
+│ │ ├─Certificate KW:
+│ │ │     Device ID:      77131dd3138a2092cadd692aff1efca08b26821e
+│ │ │     Current version: 2022
+│ │ │     Update Error:   No vendor ID set
+│ │ │     GUID:           06dad9f9-a4a9-50af-92a3-b497fba556be ← UEFI\CRT_897AF98E0A44B714E9A0070D61AF83169AA3E18C
+│ │ │     Device Flags:   • Internal device
+│ │ │                     • Needs a reboot after installation
+│ │ │                     • Updatable
+│ │ │                     • Signed Payload
+│ │ │                     • Can tag for emulation
+│ │ │   
+│ │ ├─Option ROM UEFI CA:
+│ │ │     Device ID:      92120fc1a625f725901333cbfec152b8d6e42d43
+│ │ │     Current version: 2023
+│ │ │     Vendor:         Microsoft (UEFI:Microsoft)
+│ │ │     GUIDs:          ca4668d9-734f-5b2b-aae8-8120b196f659 ← UEFI\VENDOR_Microsoft&NAME_Microsoft-Option-ROM-UEFI-CA
+│ │ │                     965d1919-0e18-5b63-9ebd-e5d122cd11df ← UEFI\CRT_F45B559FC1C60F31B3071021298D5ED7D77280B0
+│ │ │     Device Flags:   • Internal device
+│ │ │                     • Updatable
+│ │ │                     • Needs a reboot after installation
+│ │ │                     • Signed Payload
+│ │ │                     • Can tag for emulation
+│ │ │   
+│ │ ├─UEFI CA:
+│ │ │     Device ID:      5bc922b7bd1adb5b6f99592611404036bd9f42d0
+│ │ │     Current version: 2023
+│ │ │     Vendor:         Microsoft (UEFI:Microsoft)
+│ │ │     GUIDs:          26f42cba-9bf6-5365-802b-e250eb757e96 ← UEFI\VENDOR_Microsoft&NAME_Microsoft-UEFI-CA
+│ │ │                     308281c7-d0c5-52e0-8c1a-810540de03df ← UEFI\CRT_7CD7437C555F89E7C2B50E21937E420C4E583E80
+│ │ │     Device Flags:   • Internal device
+│ │ │                     • Updatable
+│ │ │                     • Supported on remote server
+│ │ │                     • Needs a reboot after installation
+│ │ │                     • Signed Payload
+│ │ │                     • Can tag for emulation
+│ │ │   
+│ │ └─Windows Production PCA:
+│ │       Device ID:      ad7e00ec37f005ae10492bdb7f73aef0d2e20488
+│ │       Current version: 2011
+│ │       Vendor:         Microsoft (UEFI:Microsoft)
+│ │       GUIDs:          675d2184-6c9a-59f1-a6f1-3c229b5dbb79 ← UEFI\VENDOR_Microsoft&NAME_Microsoft-Windows-Production-PCA
+│ │                       0611d85d-99a4-5c50-8c17-fc5196226f85 ← UEFI\CRT_1A8B6903D64CC9AD09D12FCB355663A458A09EF0
+│ │       Device Flags:   • Internal device
+│ │                       • Updatable
+│ │                       • Needs a reboot after installation
+│ │                       • Signed Payload
+│ │                       • Can tag for emulation
+│ │     
+│ └─UEFI dbx:
+│       Device ID:        362301da643102b9f38477387e2193e57abaa590
+│       Summary:          UEFI revocation database
+│       Current version:  20250902
+│       Minimum Version:  20250902
+│       Vendor:           Microsoft (UEFI:Microsoft)
+│       Install Duration: 1 second
+│       GUID:             f8ba2887-9411-5c36-9cee-88995bb39731 ← UEFI\CRT_A1117F516A32CEFCBA3F2D1ACE10A87972FD6BBE8FE0D0B996E09E65D802A503&ARCH_X64
+│       Device Flags:     • Internal device
+│                         • Updatable
+│                         • Supported on remote server
+│                         • Needs a reboot after installation
+│                         • Device is usable for the duration of the update
+│                         • Only version upgrades are allowed
+│                         • Signed Payload
+│                         • Can tag for emulation
+│     
+├─TPM:
+│     Device ID:          1d8d50a4dbc65618f5c399c2ae827b632b3ccc11
+│     Current version:    600.18.25.2027
+│     Vendor:             Intel (TPM:INTC)
+│     GUIDs:              34801700-3a50-5b05-820c-fe14580e4c2d ← TPM\VEN_INTC&DEV_0000
+│                         93532b61-86ce-57cf-8a31-f5a5553966c7 ← TPM\VEN_INTC&MOD_ADL
+│                         03f304f4-223e-54f4-b2c1-c3cf3b5817c6 ← TPM\VEN_INTC&DEV_0000&VER_2.0
+│                         12e61a33-eef7-58d6-855d-ece38114294d ← TPM\VEN_INTC&MOD_ADL&VER_2.0
+│     Device Flags:       • Internal device
+│                         • System requires external power source
+│                         • Needs a reboot after installation
+│                         • Device can recover flash failures
+│                         • Signed Payload
+│                         • Can tag for emulation
+│   
+├─UEFI Device Firmware:
+│     Device ID:          357713bf5c697996742eb78f84621925d462e848
+│     Summary:            UEFI System Resource Table device (updated via NVRAM)
+│     Current version:    16777233
+│     Vendor:             DMI:LENOVO
+│     Update State:       Success
+│     GUID:               3add3d98-8c96-4427-9236-6e6f04621225
+│     Device Flags:       • Internal device
+│                         • Updatable
+│                         • System requires external power source
+│                         • Needs a reboot after installation
+│                         • Device is usable for the duration of the update
+│     Device Requests:    • Message
+│   
+└─UEFI Device Firmware:
+      Device ID:          d65b78191251d319f0f76ec59e2b0d3ae5de483b
+      Summary:            UEFI System Resource Table device (updated via NVRAM)
+      Current version:    4
+      Vendor:             DMI:LENOVO
+      Update State:       Success
+      GUID:               234124e9-40b7-43ef-9b5e-97470808d440
+      Device Flags:       • Internal device
+                          • Updatable
+                          • System requires external power source
+                          • Needs a reboot after installation
+                          • Device is usable for the duration of the update
+      Device Requests:    • Message
+    

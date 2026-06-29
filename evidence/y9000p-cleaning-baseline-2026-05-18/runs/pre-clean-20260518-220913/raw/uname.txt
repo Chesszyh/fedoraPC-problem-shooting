@@ -1,0 +1,1 @@
+Linux chesszyh 7.0.4-100.fc43.x86_64 #1 SMP PREEMPT_DYNAMIC Thu May  7 18:45:35 UTC 2026 x86_64 GNU/Linux

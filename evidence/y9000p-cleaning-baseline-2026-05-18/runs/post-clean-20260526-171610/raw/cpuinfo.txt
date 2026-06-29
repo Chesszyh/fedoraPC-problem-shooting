@@ -1,0 +1,289 @@
+/home/chesszyh/.bashrc: line 795: bind: warning: line editing not enabled
+processor	: 0
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 876.434
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 0
+cpu cores	: 24
+processor	: 1
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1129.325
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 0
+cpu cores	: 24
+processor	: 2
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1000.601
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 4
+cpu cores	: 24
+processor	: 3
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 4
+cpu cores	: 24
+processor	: 4
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1954.258
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 8
+cpu cores	: 24
+processor	: 5
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 799.669
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 8
+cpu cores	: 24
+processor	: 6
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1205.783
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 12
+cpu cores	: 24
+processor	: 7
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 12
+cpu cores	: 24
+processor	: 8
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1411.032
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 16
+cpu cores	: 24
+processor	: 9
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 16
+cpu cores	: 24
+processor	: 10
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.449
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 20
+cpu cores	: 24
+processor	: 11
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 20
+cpu cores	: 24
+processor	: 12
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 24
+cpu cores	: 24
+processor	: 13
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 24
+cpu cores	: 24
+processor	: 14
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1645.295
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 28
+cpu cores	: 24
+processor	: 15
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 28
+cpu cores	: 24
+processor	: 16
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1494.088
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 32
+cpu cores	: 24
+processor	: 17
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1587.101
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 33
+cpu cores	: 24
+processor	: 18
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1429.802
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 34
+cpu cores	: 24
+processor	: 19
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1389.332
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 35
+cpu cores	: 24
+processor	: 20
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 36
+cpu cores	: 24
+processor	: 21
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1455.413
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 37
+cpu cores	: 24
+processor	: 22
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1081.606
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 38
+cpu cores	: 24
+processor	: 23
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1212.231
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 39
+cpu cores	: 24
+processor	: 24
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1474.159
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 40
+cpu cores	: 24
+processor	: 25
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.366
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 41
+cpu cores	: 24
+processor	: 26
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 42
+cpu cores	: 24
+processor	: 27
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1507.241
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 43
+cpu cores	: 24
+processor	: 28
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 44
+cpu cores	: 24
+processor	: 29
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1604.963
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 45
+cpu cores	: 24
+processor	: 30
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 1600.028
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 46
+cpu cores	: 24
+processor	: 31
+model name	: 13th Gen Intel(R) Core(TM) i9-13900HX
+microcode	: 0x133
+cpu MHz		: 800.000
+cache size	: 36864 KB
+physical id	: 0
+siblings	: 32
+core id		: 47
+cpu cores	: 24

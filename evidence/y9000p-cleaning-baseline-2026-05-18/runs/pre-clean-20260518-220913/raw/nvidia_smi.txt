@@ -1,0 +1,27 @@
+Mon May 18 22:09:19 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.159.03             Driver Version: 580.159.03     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 4060 ...    Off |   00000000:01:00.0  On |                  N/A |
+| N/A   49C    P5              8W /   55W |     682MiB /   8188MiB |     12%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            5106      G   Hyprland                                178MiB |
+|    0   N/A  N/A            5403      G   Xwayland                                  3MiB |
+|    0   N/A  N/A            5470      G   clash-verge                               2MiB |
+|    0   N/A  N/A            5496      G   /usr/bin/xwaylandvideobridge              2MiB |
+|    0   N/A  N/A            5510    C+G   /usr/bin/swaync                          13MiB |
+|    0   N/A  N/A            5859      G   ...Snipas0ie4sJ/usr/bin/Snipaste          2MiB |
+|    0   N/A  N/A           12724    C+G   ...rack-uuid=3190708988185955192        154MiB |
+|    0   N/A  N/A           73749      G   /usr/bin/kitty                          115MiB |
++-----------------------------------------------------------------------------------------+

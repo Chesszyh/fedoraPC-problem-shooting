@@ -1,0 +1,14 @@
+# hashes
+e1ff9f5b54c19c2b473d06c6bb14536c480885b545d8f9dce689465d53816ee5  SilentSetup.exe
+cc694b9332af839c0c9355956f3417a6a021c0ac34395ca0ffcef6c3f27c566c  analysis-evidence/extracted/HWSignature.dll
+b7934fd46c2fef0ee93dcb33d03a9ceb7a560670f1666fa4ef0e66d04f7fb396  analysis-evidence/extracted/ImageMagik.dll
+1f71d170b5b30683c1d59d8a83027fae09a61c2041411bb6ee21dbf99ff545a5  analysis-evidence/extracted/QQMusic_Setup_2228.exe
+b868cb9d615807d709678400bc5d4261a9c2a2213dcbaceaaa3be428e8b90236  analysis-evidence/extracted/proxy.exe
+b2230f1e1e4fe538eb3c513e6612d82453e708ac94373b155624a656620f1bbc  analysis-evidence/extracted/sgfeedbackhelper.exe
+
+# files
+HWSignature.dll	14336 bytes
+ImageMagik.dll	6155648 bytes
+QQMusic_Setup_2228.exe	104572968 bytes
+proxy.exe	2371 bytes
+sgfeedbackhelper.exe	3292544 bytes

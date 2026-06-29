@@ -1,0 +1,157 @@
+/home/chesszyh/.bashrc: line 795: bind: warning: line editing not enabled
+### /sys/class/thermal/cooling_device0
+/sys/class/thermal/cooling_device0/type:PCIe_Port_Link_Speed_0000:00:01.0
+/sys/class/thermal/cooling_device0/cur_state:1
+/sys/class/thermal/cooling_device0/max_state:4
+### /sys/class/thermal/cooling_device1
+/sys/class/thermal/cooling_device1/type:PCIe_Port_Link_Speed_0000:00:06.0
+/sys/class/thermal/cooling_device1/cur_state:0
+/sys/class/thermal/cooling_device1/max_state:3
+### /sys/class/thermal/cooling_device10
+/sys/class/thermal/cooling_device10/type:Processor
+/sys/class/thermal/cooling_device10/cur_state:0
+/sys/class/thermal/cooling_device10/max_state:3
+### /sys/class/thermal/cooling_device11
+/sys/class/thermal/cooling_device11/type:Processor
+/sys/class/thermal/cooling_device11/cur_state:0
+/sys/class/thermal/cooling_device11/max_state:3
+### /sys/class/thermal/cooling_device12
+/sys/class/thermal/cooling_device12/type:Processor
+/sys/class/thermal/cooling_device12/cur_state:0
+/sys/class/thermal/cooling_device12/max_state:3
+### /sys/class/thermal/cooling_device13
+/sys/class/thermal/cooling_device13/type:Processor
+/sys/class/thermal/cooling_device13/cur_state:0
+/sys/class/thermal/cooling_device13/max_state:3
+### /sys/class/thermal/cooling_device14
+/sys/class/thermal/cooling_device14/type:Processor
+/sys/class/thermal/cooling_device14/cur_state:0
+/sys/class/thermal/cooling_device14/max_state:3
+### /sys/class/thermal/cooling_device15
+/sys/class/thermal/cooling_device15/type:Processor
+/sys/class/thermal/cooling_device15/cur_state:0
+/sys/class/thermal/cooling_device15/max_state:3
+### /sys/class/thermal/cooling_device16
+/sys/class/thermal/cooling_device16/type:Processor
+/sys/class/thermal/cooling_device16/cur_state:0
+/sys/class/thermal/cooling_device16/max_state:3
+### /sys/class/thermal/cooling_device17
+/sys/class/thermal/cooling_device17/type:Processor
+/sys/class/thermal/cooling_device17/cur_state:0
+/sys/class/thermal/cooling_device17/max_state:3
+### /sys/class/thermal/cooling_device18
+/sys/class/thermal/cooling_device18/type:Processor
+/sys/class/thermal/cooling_device18/cur_state:0
+/sys/class/thermal/cooling_device18/max_state:3
+### /sys/class/thermal/cooling_device19
+/sys/class/thermal/cooling_device19/type:Processor
+/sys/class/thermal/cooling_device19/cur_state:0
+/sys/class/thermal/cooling_device19/max_state:3
+### /sys/class/thermal/cooling_device2
+/sys/class/thermal/cooling_device2/type:PCIe_Port_Link_Speed_0000:00:1b.0
+/sys/class/thermal/cooling_device2/cur_state:2
+/sys/class/thermal/cooling_device2/max_state:2
+### /sys/class/thermal/cooling_device20
+/sys/class/thermal/cooling_device20/type:Processor
+/sys/class/thermal/cooling_device20/cur_state:0
+/sys/class/thermal/cooling_device20/max_state:3
+### /sys/class/thermal/cooling_device21
+/sys/class/thermal/cooling_device21/type:Processor
+/sys/class/thermal/cooling_device21/cur_state:0
+/sys/class/thermal/cooling_device21/max_state:3
+### /sys/class/thermal/cooling_device22
+/sys/class/thermal/cooling_device22/type:Processor
+/sys/class/thermal/cooling_device22/cur_state:0
+/sys/class/thermal/cooling_device22/max_state:3
+### /sys/class/thermal/cooling_device23
+/sys/class/thermal/cooling_device23/type:Processor
+/sys/class/thermal/cooling_device23/cur_state:0
+/sys/class/thermal/cooling_device23/max_state:3
+### /sys/class/thermal/cooling_device24
+/sys/class/thermal/cooling_device24/type:Processor
+/sys/class/thermal/cooling_device24/cur_state:0
+/sys/class/thermal/cooling_device24/max_state:3
+### /sys/class/thermal/cooling_device25
+/sys/class/thermal/cooling_device25/type:Processor
+/sys/class/thermal/cooling_device25/cur_state:0
+/sys/class/thermal/cooling_device25/max_state:3
+### /sys/class/thermal/cooling_device26
+/sys/class/thermal/cooling_device26/type:Processor
+/sys/class/thermal/cooling_device26/cur_state:0
+/sys/class/thermal/cooling_device26/max_state:3
+### /sys/class/thermal/cooling_device27
+/sys/class/thermal/cooling_device27/type:Processor
+/sys/class/thermal/cooling_device27/cur_state:0
+/sys/class/thermal/cooling_device27/max_state:3
+### /sys/class/thermal/cooling_device28
+/sys/class/thermal/cooling_device28/type:Processor
+/sys/class/thermal/cooling_device28/cur_state:0
+/sys/class/thermal/cooling_device28/max_state:3
+### /sys/class/thermal/cooling_device29
+/sys/class/thermal/cooling_device29/type:Processor
+/sys/class/thermal/cooling_device29/cur_state:0
+/sys/class/thermal/cooling_device29/max_state:3
+### /sys/class/thermal/cooling_device3
+/sys/class/thermal/cooling_device3/type:PCIe_Port_Link_Speed_0000:00:1b.5
+/sys/class/thermal/cooling_device3/cur_state:3
+/sys/class/thermal/cooling_device3/max_state:3
+### /sys/class/thermal/cooling_device30
+/sys/class/thermal/cooling_device30/type:Processor
+/sys/class/thermal/cooling_device30/cur_state:0
+/sys/class/thermal/cooling_device30/max_state:3
+### /sys/class/thermal/cooling_device31
+/sys/class/thermal/cooling_device31/type:Processor
+/sys/class/thermal/cooling_device31/cur_state:0
+/sys/class/thermal/cooling_device31/max_state:3
+### /sys/class/thermal/cooling_device32
+/sys/class/thermal/cooling_device32/type:Processor
+/sys/class/thermal/cooling_device32/cur_state:0
+/sys/class/thermal/cooling_device32/max_state:3
+### /sys/class/thermal/cooling_device33
+/sys/class/thermal/cooling_device33/type:Processor
+/sys/class/thermal/cooling_device33/cur_state:0
+/sys/class/thermal/cooling_device33/max_state:3
+### /sys/class/thermal/cooling_device34
+/sys/class/thermal/cooling_device34/type:Processor
+/sys/class/thermal/cooling_device34/cur_state:0
+/sys/class/thermal/cooling_device34/max_state:3
+### /sys/class/thermal/cooling_device35
+/sys/class/thermal/cooling_device35/type:Processor
+/sys/class/thermal/cooling_device35/cur_state:0
+/sys/class/thermal/cooling_device35/max_state:3
+### /sys/class/thermal/cooling_device36
+/sys/class/thermal/cooling_device36/type:Processor
+/sys/class/thermal/cooling_device36/cur_state:0
+/sys/class/thermal/cooling_device36/max_state:3
+### /sys/class/thermal/cooling_device37
+/sys/class/thermal/cooling_device37/type:intel_powerclamp
+/sys/class/thermal/cooling_device37/cur_state:0
+/sys/class/thermal/cooling_device37/max_state:100
+### /sys/class/thermal/cooling_device38
+/sys/class/thermal/cooling_device38/type:TCC Offset
+/sys/class/thermal/cooling_device38/cur_state:3
+/sys/class/thermal/cooling_device38/max_state:63
+### /sys/class/thermal/cooling_device4
+/sys/class/thermal/cooling_device4/type:PCIe_Port_Link_Speed_0000:00:1d.0
+/sys/class/thermal/cooling_device4/cur_state:3
+/sys/class/thermal/cooling_device4/max_state:3
+### /sys/class/thermal/cooling_device5
+/sys/class/thermal/cooling_device5/type:Processor
+/sys/class/thermal/cooling_device5/cur_state:0
+/sys/class/thermal/cooling_device5/max_state:3
+### /sys/class/thermal/cooling_device6
+/sys/class/thermal/cooling_device6/type:Processor
+/sys/class/thermal/cooling_device6/cur_state:0
+/sys/class/thermal/cooling_device6/max_state:3
+### /sys/class/thermal/cooling_device7
+/sys/class/thermal/cooling_device7/type:Processor
+/sys/class/thermal/cooling_device7/cur_state:0
+/sys/class/thermal/cooling_device7/max_state:3
+### /sys/class/thermal/cooling_device8
+/sys/class/thermal/cooling_device8/type:Processor
+/sys/class/thermal/cooling_device8/cur_state:0
+/sys/class/thermal/cooling_device8/max_state:3
+### /sys/class/thermal/cooling_device9
+/sys/class/thermal/cooling_device9/type:Processor
+/sys/class/thermal/cooling_device9/cur_state:0
+/sys/class/thermal/cooling_device9/max_state:3

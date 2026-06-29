@@ -1,0 +1,2 @@
+name, uuid, pci.bus_id, pci.device_id, pci.sub_device_id, vbios_version, driver_version, pstate, temperature.gpu, power.draw [W], power.limit [W], clocks.current.graphics [MHz], clocks.current.memory [MHz], memory.total [MiB], memory.used [MiB]
+NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, 00000000:01:00.0, 0x28E010DE, 0x3B5317AA, 95.07.16.80.6D, 580.159.03, P3, 40, 11.52 W, [N/A], 1395 MHz, 7001 MHz, 8188 MiB, 636 MiB

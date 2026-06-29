@@ -1,0 +1,11 @@
+stress-ng: info:  [26799] setting to a 1 min 30 secs run per stressor
+stress-ng: info:  [26799] dispatching hogs: 2 vm
+stress-ng: info:  [26800] vm: using 1.37GB per stressor instance (total 2.74GB of 3.91GB available memory)
+stress-ng: metrc: [26799] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [26799]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [26799] vm             17105814     90.07    143.09     36.65    189907.17       95174.29
+stress-ng: info:  [26799] skipped: 0
+stress-ng: info:  [26799] passed: 2: vm (2)
+stress-ng: info:  [26799] failed: 0
+stress-ng: info:  [26799] metrics untrustworthy: 0
+stress-ng: info:  [26799] successful run completed in 1 min 30.13 secs

@@ -1,0 +1,4 @@
+/dev/nvme0n1p3: LABEL="fedora" UUID="911dff08-da29-4f07-85e9-3b97b574b12d" UUID_SUB="d6cdb74f-16fd-4684-bdcf-e32546e3df4f" BLOCK_SIZE="4096" TYPE="btrfs" PARTUUID="31af678c-fa54-492c-89ef-ab7f59220e58"
+/dev/nvme0n1p2: UUID="2a9e52a0-f3c8-4bad-8050-44d545947bdc" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="0d7b1c2b-c606-47d3-818c-4717aa724058"
+/dev/nvme0n1p1: UUID="97F3-4DA2" BLOCK_SIZE="512" TYPE="vfat" PARTLABEL="EFI System Partition" PARTUUID="4d0b32d0-d6e4-4b71-a87d-10bea79d6bcd"
+/dev/zram0: LABEL="zram0" UUID="a871349f-5a51-4231-be6f-d6a7a6eda6bf" TYPE="swap"

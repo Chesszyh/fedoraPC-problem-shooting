@@ -1,0 +1,404 @@
+May 26 17:13:29 chesszyh kernel: [Firmware Bug]: TSC ADJUST: CPU0: -4563653211 force to 0
+May 26 17:13:29 chesszyh kernel: [Firmware Bug]: TSC ADJUST differs within socket(s), fixing all errors
+May 26 17:13:29 chesszyh kernel:   #1  #3  #5  #7  #9 #11 #13 #15
+May 26 17:13:29 chesszyh kernel: hpet_acpi_add: no address or irqs in _CRS
+May 26 17:13:29 chesszyh kernel: i2c_designware i2c_designware.4: [Firmware Bug]: DSDT uses known not-working I2C bus speed 400000, forcing it to 100000
+May 26 17:13:29 chesszyh kernel: i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+May 26 17:13:30 chesszyh kernel: ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+May 26 17:13:29 chesszyh systemd-modules-load[400]: Failed to find module 'v4l2loopback'
+May 26 17:13:29 chesszyh systemd-modules-load[400]: Failed to find module 'vmmon'
+May 26 17:13:29 chesszyh systemd-modules-load[400]: Failed to find module 'vmnet'
+May 26 17:13:30 chesszyh systemd-sysctl[418]: Couldn't write 'bbr' to 'net/ipv4/tcp_congestion_control', ignoring: No such file or directory
+May 26 17:13:30 chesszyh systemd-sysctl[418]: Couldn't write 'fq' to 'net/core/default_qdisc', ignoring: No such file or directory
+May 26 17:13:32 chesszyh systemd-sysv-generator[757]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 26 17:13:32 chesszyh systemd-sysv-generator[757]: Please update package to include a native systemd unit file.
+May 26 17:13:32 chesszyh systemd-sysv-generator[757]: ! This compatibility logic is deprecated, expect removal soon. !
+May 26 17:13:32 chesszyh systemd-sysv-generator[757]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+May 26 17:13:32 chesszyh systemd-sysv-generator[757]: Please update package to include a native systemd unit file.
+May 26 17:13:32 chesszyh systemd-sysv-generator[757]: ! This compatibility logic is deprecated, expect removal soon. !
+May 26 17:13:32 chesszyh kernel: v4l2loopback: loading out-of-tree module taints kernel.
+May 26 17:13:32 chesszyh systemd-modules-load[790]: Failed to find module 'vmmon'
+May 26 17:13:32 chesszyh systemd-modules-load[790]: Failed to find module 'vmnet'
+May 26 17:13:32 chesszyh systemd-journald[789]: File /var/log/journal/3713db442ab44c6bb845a5e099dca5e4/system.journal corrupted or uncleanly shut down, renaming and replacing.
+May 26 17:13:32 chesszyh systemd-udevd[838]: /usr/lib/udev/rules.d/75-davincipanel.rules:2 Unknown group 'resolve', ignoring.
+May 26 17:13:33 chesszyh kernel: spi-nor spi0.0: supply vcc not found, using dummy regulator
+May 26 17:13:33 chesszyh kernel: r8169 0000:08:00.0: can't disable ASPM; OS doesn't have ASPM control
+May 26 17:13:33 chesszyh kernel: lenovo_wmi_other DC2A8805-3A8C-41BA-A6F7-092E0089CD3B-6: fan reporting/tuning is unsupported on this device
+May 26 17:13:33 chesszyh kernel: spi-nor spi0.1: supply vcc not found, using dummy regulator
+May 26 17:13:33 chesszyh tlp[1017]: Error: TLP's power saving will not apply on boot because tlp.service is not enabled --> Invoke 'systemctl enable tlp.service' to ensure the full functionality of TLP.
+May 26 17:13:33 chesszyh kernel: tlp: vm.laptop_mode is deprecated. Ignoring setting.
+May 26 17:13:33 chesszyh kernel: 
+May 26 17:13:33 chesszyh kernel: NVRM: loading NVIDIA UNIX Open Kernel Module for x86_64  580.159.03  Release Build  (dvs-builder@U22-I3-AM27-29-6)  Fri Apr 24 06:03:03 UTC 2026
+May 26 17:13:33 chesszyh kernel: kauditd_printk_skb: 21 callbacks suppressed
+May 26 17:13:33 chesszyh kernel: NVRM: testIfDsmSubFunctionEnabled: GPS ACPI DSM called before _acpiDsmSupportedFuncCacheInit subfunction = 11.
+May 26 17:13:33 chesszyh kernel: SELinux: systemd-tmpfile (1274) wrote to checkreqprot. This is no longer supported.
+May 26 17:13:34 chesszyh kernel: NVRM: testIfDsmSubFunctionEnabled: GPS ACPI DSM called before _acpiDsmSupportedFuncCacheInit subfunction = 11.
+May 26 17:13:35 chesszyh (-wrapper)[1466]: lm_sensors.service: Referenced but unset environment variable evaluates to an empty string: BUS_MODULES
+May 26 17:13:35 chesszyh kernel: nvme nvme0: using unchecked data buffer
+May 26 17:13:35 chesszyh (qbalance)[1460]: irqbalance.service: Referenced but unset environment variable evaluates to an empty string: IRQBALANCE_ARGS
+May 26 17:13:35 chesszyh bluetoothd[1456]: Failed to set default system config for hci0
+May 26 17:13:36 chesszyh systemd-logind[1494]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-7.0.9-105.fc43.x86_64.conf:6: Unknown line 'grub_users', ignoring.
+May 26 17:13:36 chesszyh systemd-logind[1494]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-7.0.9-105.fc43.x86_64.conf:7: Unknown line 'grub_arg', ignoring.
+May 26 17:13:36 chesszyh systemd-logind[1494]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-7.0.9-105.fc43.x86_64.conf:8: Unknown line 'grub_class', ignoring.
+May 26 17:13:36 chesszyh systemd-logind[1494]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-7.0.9-104.fc43.x86_64.conf:6: Unknown line 'grub_users', ignoring.
+May 26 17:13:36 chesszyh systemd-logind[1494]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-7.0.9-104.fc43.x86_64.conf:7: Unknown line 'grub_arg', ignoring.
+May 26 17:13:36 chesszyh systemd-logind[1494]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-7.0.9-104.fc43.x86_64.conf:8: Unknown line 'grub_class', ignoring.
+May 26 17:13:36 chesszyh systemd-logind[1494]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-0-rescue.conf:6: Unknown line 'grub_users', ignoring.
+May 26 17:13:36 chesszyh systemd-logind[1494]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-0-rescue.conf:7: Unknown line 'grub_arg', ignoring.
+May 26 17:13:36 chesszyh systemd-logind[1494]: /boot/loader/entries/3713db442ab44c6bb845a5e099dca5e4-0-rescue.conf:8: Unknown line 'grub_class', ignoring.
+May 26 17:13:36 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_TZ.ETMD], AE_NOT_FOUND (20251212/psargs-332)
+May 26 17:13:36 chesszyh kernel: ACPI Error: Aborting method \_SB.IETM._OSC due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 26 17:13:37 chesszyh systemd[1]: vmware.service: Failed with result 'exit-code'.
+May 26 17:13:37 chesszyh systemd[1]: Failed to start vmware.service - VMware Workstation Services.
+May 26 17:13:37 chesszyh systemd[1]: Dependency failed for vmware-usb.service - VMware USB Arbitrator Service.
+May 26 17:13:37 chesszyh NetworkManager[1452]: <warn>  [1779786817.0927] device (p2p-dev-wlp0s20f3): error setting IPv4 forwarding to '0': 成功
+May 26 17:13:37 chesszyh (mariadbd)[1874]: mariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER
+May 26 17:13:37 chesszyh kernel: Thread-1 (_thre: vm.laptop_mode is deprecated. Ignoring setting.
+May 26 17:13:42 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:13:42 chesszyh (atd)[1996]: atd.service: Referenced but unset environment variable evaluates to an empty string: OPTS
+May 26 17:13:42 chesszyh sddm-helper[2169]: Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+                                            Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+                                            If this causes problems, reconfigure your locale. See the locale(1) manual
+                                            for more information.
+May 26 17:13:43 chesszyh systemd-journald[789]: File /var/log/journal/3713db442ab44c6bb845a5e099dca5e4/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+May 26 17:13:43 chesszyh systemd[2018]: sys-devices-pci0000:00-0000:00:1f.3-sound-card0-controlC0.device: Failed to enqueue SYSTEMD_USER_WANTS job, ignoring: Transaction for sound.target/start is destructive (sound.target has 'stop' job queued, but 'start' is included in transaction).
+May 26 17:13:43 chesszyh systemd[2018]: sys-devices-pci0000:00-0000:00:01.0-0000:01:00.1-sound-card1-controlC1.device: Failed to enqueue SYSTEMD_USER_WANTS job, ignoring: Transaction for sound.target/start is destructive (sound.target has 'stop' job queued, but 'start' is included in transaction).
+May 26 17:13:43 chesszyh dbus-broker-launch[2287]: Service file '/usr/share//dbus-1/services/org.erikreider.swaync.service' is not named after the D-Bus name 'org.freedesktop.Notifications'.
+May 26 17:13:43 chesszyh dbus-broker-launch[2287]: Service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service' is not named after the D-Bus name 'org.freedesktop.FileManager1'.
+May 26 17:13:43 chesszyh dbus-broker-launch[2287]: Ignoring duplicate name 'org.freedesktop.FileManager1' in service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service'
+May 26 17:13:43 chesszyh dbus-broker-launch[2287]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Cache1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Cache1'.
+May 26 17:13:43 chesszyh dbus-broker-launch[2287]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Manager1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Manager1'.
+May 26 17:13:43 chesszyh dbus-broker-launch[2287]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Thumbnailer1'.
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "Date: 2026-05-26 CST\n[17:13:43.331] weston 14.0.2\n               https://wayland.freedesktop.org\n               Bug reports to: https://gitlab.freedesktop.org/wayland/weston/issues/\n               Build: 14.0.2\n[17:13:43.331] Command line: /usr/bin/weston --shell=kiosk --config=/etc/sddm/weston.ini\n[17:13:43.331] OS: Linux, 7.0.9-105.fc43.x86_64, #1 SMP PREEMPT_DYNAMIC Thu May 21 16:52:10 UTC 2026, x86_64\n[17:13:43.331] Flight recorder: enabled\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.332] Using config file '/etc/sddm/weston.ini'\n"
+May 26 17:13:43 chesszyh wireplumber[2302]: wplua: [string "common-utils.lua"]:71: attempt to index a nil value (field 'source_plugin')
+                                            stack traceback:
+                                                    [string "common-utils.lua"]:71: in function 'common-utils.get_object_manager'
+                                                    [string "common-utils.lua"]:76: in function 'common-utils.get_default_metadata_object'
+                                                    [string "find-defined-target.lua"]:37: in function <[string "find-defined-target.lua"]:24>
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.332] Output repaint window is 7 ms maximum.\n"
+May 26 17:13:43 chesszyh wireplumber[2302]: wplua: [string "common-utils.lua"]:71: attempt to index a nil value (field 'source_plugin')
+                                            stack traceback:
+                                                    [string "common-utils.lua"]:71: in function 'common-utils.get_object_manager'
+                                                    [string "linking-utils.lua"]:331: in function 'linking-utils.findDefaultLinkable'
+                                                    [string "find-default-target.lua"]:38: in function <[string "find-default-target.lua"]:24>
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.333] Loading module '/usr/lib64/libweston-14/drm-backend.so'\n"
+May 26 17:13:43 chesszyh wireplumber[2302]: wplua: [string "common-utils.lua"]:71: attempt to index a nil value (field 'source_plugin')
+                                            stack traceback:
+                                                    [string "common-utils.lua"]:71: in function 'common-utils.get_object_manager'
+                                                    [string "common-utils.lua"]:76: in function 'common-utils.get_default_metadata_object'
+                                                    [string "find-defined-target.lua"]:37: in function <[string "find-defined-target.lua"]:24>
+May 26 17:13:43 chesszyh wireplumber[2302]: wplua: [string "common-utils.lua"]:71: attempt to index a nil value (field 'source_plugin')
+                                            stack traceback:
+                                                    [string "common-utils.lua"]:71: in function 'common-utils.get_object_manager'
+                                                    [string "linking-utils.lua"]:331: in function 'linking-utils.findDefaultLinkable'
+                                                    [string "find-default-target.lua"]:38: in function <[string "find-default-target.lua"]:24>
+May 26 17:13:43 chesszyh systemd[2018]: stt-recordd.service: Failed with result 'exit-code'.
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.338] initializing drm backend\n[17:13:43.339] Trying libseat launcher...\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.339] [libseat/backend/seatd.c:64] Could not connect to socket /run/seatd.sock: No such file or directory\n[17:13:43.339] [libseat/libseat.c:76] Backend 'seatd' failed to open seat, skipping\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.341] [libseat/libseat.c:73] Seat opened with backend 'logind'\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.341] libseat: session control granted\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.345] using /dev/dri/card1\n[17:13:43.345] DRM: supports atomic modesetting\n[17:13:43.345] DRM: supports GBM modifiers\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.345] DRM: supports Atomic async page flip\n[17:13:43.345] DRM: supports picture aspect ratio\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.346] Loading module '/usr/lib64/libweston-14/gl-renderer.so'\n"
+May 26 17:13:43 chesszyh systemd[1]: cloudflared.service: Failed with result 'exit-code'.
+May 26 17:13:43 chesszyh systemd[1]: Failed to start cloudflared.service - cloudflared.
+May 26 17:13:43 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.645] Using rendering device: /dev/dri/renderD128\n[17:13:43.645] EGL version: 1.5\n[17:13:43.645] EGL vendor: NVIDIA\n[17:13:43.645] EGL client APIs: OpenGL_ES OpenGL\n[17:13:43.645] EGL features:\n               EGL Wayland extension: yes\n               context priority: yes\n               buffer age: yes\n               partial update: yes\n               swap buffers with damage: yes\n               configless context: yes\n               surfaceless context: yes\n               dmabuf support: modifiers\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.708] GL version: OpenGL ES 3.2 NVIDIA 580.159.03\n[17:13:43.708] GLSL version: OpenGL ES GLSL ES 3.20\n[17:13:43.708] GL vendor: NVIDIA Corporation\n[17:13:43.708] GL renderer: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.710] GL ES 3.2 - renderer features:\n               read-back format: ARGB8888\n               glReadPixels supports y-flip: no\n               glReadPixels supports PBO: yes\n               wl_shm 10 bpc formats: yes\n               wl_shm 16 bpc formats: yes\n               wl_shm half-float formats: no\n               internal R and RG formats: yes\n               OES_EGL_image_external: yes\n[17:13:43.710] Using GL renderer\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.728] event11 - HDA NVidia HDMI/DP,pcm=3: is tagged by udev as: Switch\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.729] event11 - not using input device '/dev/input/event11'\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.731] event12 - HDA NVidia HDMI/DP,pcm=7: is tagged by udev as: Switch\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.732] event12 - not using input device '/dev/input/event12'\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.733] event13 - HDA NVidia HDMI/DP,pcm=8: is tagged by udev as: Switch\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.734] event13 - not using input device '/dev/input/event13'\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.736] event14 - HDA NVidia HDMI/DP,pcm=9: is tagged by udev as: Switch\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.737] event14 - not using input device '/dev/input/event14'\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.740] event6  - Video Bus: is tagged by udev as: Keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.740] event6  - Video Bus: device is a keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.744] event4  - ITE Tech. Inc. ITE Device(8910) Keyboard: is tagged by udev as: Keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.745] event4  - ITE Tech. Inc. ITE Device(8910) Keyboard: device is a keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.749] event5  - ITE Tech. Inc. ITE Device(8910) Wireless Radio Control: is tagged by udev as: Keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.750] event5  - ITE Tech. Inc. ITE Device(8910) Wireless Radio Control: device is a keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.758] event7  - ELAN06FA:00 04F3:327E Mouse: is tagged by udev as: Mouse\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.758] event7  - ELAN06FA:00 04F3:327E Mouse: device is a pointer\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.761] event8  - ELAN06FA:00 04F3:327E Touchpad: is tagged by udev as: Touchpad\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.763] event8  - ELAN06FA:00 04F3:327E Touchpad: device is a touchpad\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.766] event10 - Ideapad extra buttons: is tagged by udev as: Keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.767] event10 - Ideapad extra buttons: device is a keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.769] event15 - HDA Intel PCH Mic: is tagged by udev as: Switch\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.770] event15 - not using input device '/dev/input/event15'\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.773] event16 - HDA Intel PCH Headphone: is tagged by udev as: Switch\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.774] event16 - not using input device '/dev/input/event16'\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.776] event2  - Power Button: is tagged by udev as: Keyboard\n[17:13:43.776] event2  - Power Button: device is a keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.778] event1  - Power Button: is tagged by udev as: Keyboard\n[17:13:43.779] event1  - Power Button: device is a keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.781] event0  - Lid Switch: is tagged by udev as: Switch\n[17:13:43.781] event0  - Lid Switch: device is a switch device\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.783] event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.784] event3  - AT Translated Set 2 keyboard: device is a keyboard\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.787] event9  - PC Speaker: not tagged as supported input device\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.787] event9  - not using input device '/dev/input/event9'\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.800] libinput: configuring device \"Video Bus\".\n[17:13:43.800] libinput: configuring device \"ITE Tech. Inc. ITE Device(8910) Keyboard\".\n[17:13:43.800] libinput: configuring device \"ITE Tech. Inc. ITE Device(8910) Wireless Radio Control\".\n[17:13:43.800] libinput: configuring device \"ELAN06FA:00 04F3:327E Mouse\".\n[17:13:43.800] libinput: configuring device \"ELAN06FA:00 04F3:327E Touchpad\".\n[17:13:43.800] libinput: configuring device \"Ideapad extra buttons\".\n[17:13:43.800] libinput: configuring device \"Power Button\".\n[17:13:43.800] libinput: configuring device \"Power Button\".\n[17:13:43.800] libinput: configuring device \"Lid Switch\".\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.800] libinput: configuring device \"AT Translated Set 2 keyboard\".\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.801] DRM: head 'DP-1' found, connector 128 is disconnected.\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.801] DRM: head 'DP-2' found, connector 132 is disconnected.\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.802] DRM: head 'HDMI-A-1' found, connector 136 is disconnected.\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.808] DRM: head 'eDP-1' found, connector 139 is connected, EDID make 'BOE', model '0x0B8B', serial '0x00000001'\n               Supported EOTF modes: SDR, ST2084\n               Supported colorimetry modes: default, BT.2020 (RGB)\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.808] Registered plugin API 'weston_drm_output_api_v1' of size 40\n[17:13:43.808] Registered plugin API 'weston_drm_virtual_output_api_v2' of size 48\n[17:13:43.808] Color manager: no-op\n                 protocol support: no\n[17:13:43.808] Output 'eDP-1' attempts EOTF mode SDR and colorimetry mode default.\n[17:13:43.808] Output 'eDP-1' using color profile: stock sRGB color profile\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.809] Chosen EGL config details: id:  24 rgba: 8 8 8 0 buf: 24 dep:  0 stcl: 0 int: 0-1 type: win|pbf vis_id: XRGB8888 (0x34325258)\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.809] Initialized backlight for head 'eDP-1', device /sys/class/backlight/nvidia_0\n[17:13:43.809] Output eDP-1 (crtc 62) video modes:\n               2560x1600@60.0, preferred, current, 287.2 MHz\n               2560x1600@240.0, 1148.9 MHz\n[17:13:43.809] associating input device event6 with output eDP-1 (none by udev)\n[17:13:43.809] associating input device event4 with output eDP-1 (none by udev)\n[17:13:43.809] associating input device event5 with output eDP-1 (none by udev)\n[17:13:43.809] associating input device event7 with output eDP-1 (none by udev)\n[17:13:43.809] associating input device event8 with output eDP-1 (none by udev)\n[17:13:43.809] associating input device event10 with output eDP-1 (none by udev)\n[17:13:43.809] associating input device event2 with output eDP-1 (none by udev)\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.809] associating input device event1 with output eDP-1 (none by udev)\n[17:13:43.809] associating input device event0 with output eDP-1 (none by udev)\n[17:13:43.809] associating input device event3 with output eDP-1 (none by udev)\n[17:13:43.809] Output 'eDP-1' enabled with head(s) eDP-1\n[17:13:43.809] Compositor capabilities:\n               arbitrary surface rotation: yes\n               screen capture uses y-flip: yes\n               cursor planes: yes\n               arbitrary resolutions: no\n               view mask clipping: yes\n               explicit sync: yes\n               color operations: no\n               presentation clock: CLOCK_MONOTONIC, id 1\n               presentation clock resolution: 0.000000001 s\n"
+May 26 17:13:43 chesszyh sddm-helper-start-wayland[2371]: "[17:13:43.810] Loading module '/usr/lib64/weston/kiosk-shell.so'\n"
+May 26 17:13:43 chesszyh systemd[2018]: cloudflared-cpa.service: Failed with result 'exit-code'.
+May 26 17:13:43 chesszyh dbus-broker-launch[2604]: Service file '/usr/share//dbus-1/services/org.erikreider.swaync.service' is not named after the D-Bus name 'org.freedesktop.Notifications'.
+May 26 17:13:43 chesszyh dbus-broker-launch[2604]: Service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service' is not named after the D-Bus name 'org.freedesktop.FileManager1'.
+May 26 17:13:43 chesszyh dbus-broker-launch[2604]: Ignoring duplicate name 'org.freedesktop.FileManager1' in service file '/usr/share//dbus-1/services/org.xfce.Thunar.FileManager1.service'
+May 26 17:13:43 chesszyh dbus-broker-launch[2604]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Cache1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Cache1'.
+May 26 17:13:43 chesszyh dbus-broker-launch[2604]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Manager1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Manager1'.
+May 26 17:13:43 chesszyh dbus-broker-launch[2604]: Service file '/usr/share//dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service' is not named after the D-Bus name 'org.freedesktop.thumbnails.Thumbnailer1'.
+May 26 17:13:44 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:13:44 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:13:44 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:13:44 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:13:44 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:13:44 chesszyh sddm-helper-start-wayland[2371]: "[17:13:44.442] unknown libinput event 806\n"
+May 26 17:13:44 chesszyh sddm-helper-start-wayland[2371]: "[17:13:44.450] unknown libinput event 807\n"
+May 26 17:13:45 chesszyh sddm-helper-start-wayland[2371]: "[17:13:45.013] unknown libinput event 806\n"
+May 26 17:13:45 chesszyh sddm-helper-start-wayland[2371]: "[17:13:45.062] unknown libinput event 807\n"
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 136 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 136 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 164 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 164 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 154 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 154 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 162 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 162 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 152 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 152 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 142 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 142 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 160 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 160 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 150 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 150 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 140 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 140 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 159 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 159 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 149 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 149 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 139 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 139 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 157 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 157 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 147 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 147 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 137 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 137 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 165 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 165 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 155 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 155 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 145 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 145 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 135 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 135 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 163 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 163 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 153 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 153 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 143 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 143 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 161 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 161 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 151 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 151 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 141 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 141 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 158 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 158 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 148 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 148 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 138 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 138 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 166 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 166 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 156 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 156 affinity is now unmanaged
+May 26 17:13:45 chesszyh irqbalance[1460]: Cannot change IRQ 146 affinity: Permission denied
+May 26 17:13:45 chesszyh irqbalance[1460]: IRQ 146 affinity is now unmanaged
+May 26 17:13:45 chesszyh NetworkManager[1452]: ((../src/libnm-systemd-core/src/libsystemd/sd-event/sd-event.c:4488)): assertion '<dropped>' failed
+May 26 17:13:46 chesszyh systemd[2018]: stt-recordd.service: Failed with result 'exit-code'.
+May 26 17:13:46 chesszyh sddm-helper[3014]: Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+                                            Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+                                            If this causes problems, reconfigure your locale. See the locale(1) manual
+                                            for more information.
+May 26 17:13:46 chesszyh sddm-helper[3014]: gkr-pam: unable to locate daemon control file
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.855] caught signal 15\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.855] event6  - Video Bus: device removed\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.856] event4  - ITE Tech. Inc. ITE Device(8910) Keyboard: device removed\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.857] event5  - ITE Tech. Inc. ITE Device(8910) Wireless Radio Control: device removed\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.858] event7  - ELAN06FA:00 04F3:327E Mouse: device removed\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.859] event8  - ELAN06FA:00 04F3:327E Touchpad: device removed\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.859] event10 - Ideapad extra buttons: device removed\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.860] event2  - Power Button: device removed\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.860] event1  - Power Button: device removed\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.861] event0  - Lid Switch: device removed\n"
+May 26 17:13:46 chesszyh sddm-helper-start-wayland[2371]: "[17:13:46.862] event3  - AT Translated Set 2 keyboard: device removed\n"
+May 26 17:14:01 chesszyh systemd[1]: cloudflared.service: Failed with result 'exit-code'.
+May 26 17:14:01 chesszyh systemd[1]: Failed to start cloudflared.service - cloudflared.
+May 26 17:14:01 chesszyh systemd[2018]: cloudflared-cpa.service: Failed with result 'exit-code'.
+May 26 17:14:04 chesszyh hyprpolkitagent[3575]: QFont::fromString: Invalid description '(empty)'
+May 26 17:14:04 chesszyh xwaylandvideobridge[3569]: QFont::fromString: Invalid description '(empty)'
+May 26 17:14:05 chesszyh swaync[3581]: Failed to deserialize "image-visibility" property of type "SwayNotificationCenterImageVisibility" for an object of type "SwayNotificationCenterConfigModel"
+May 26 17:14:05 chesszyh swaync[3581]: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+May 26 17:14:05 chesszyh /usr/libexec/xdg-desktop-portal[3622]: Realtime error: Could not get pidns for pid 3992: Could not fstatat ns/pid: 不是目录
+May 26 17:14:05 chesszyh /usr/libexec/xdg-desktop-portal[3622]: Realtime error: Could not get pidns for pid 3992: Could not fstatat ns/pid: 不是目录
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:26:5-27:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:66:5-67:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:82:5-83:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:93:5-94:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:98:5-99:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:103:5-104:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:107:5-108:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:115:5-116:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:124:5-125:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:130:5-131:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:134:5-135:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:140:5-141:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:148:5-149:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:157:5-158:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:165:5-166:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:180:5-181:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:184:5-185:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:192:5-193:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:240:5-241:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:245:5-246:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:276:5-277:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:280:5-281:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:296:5-297:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:302:5-303:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:307:5-308:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:312:5-313:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:321:5-322:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:326:5-327:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:334:2-335:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: Theme parser warning: style.css:343:5-344:1: Expected ';' at end of block
+May 26 17:14:05 chesszyh swaync[3581]: baseWidget.vala:47: notifications: Config not found! Using default config...
+May 26 17:14:05 chesszyh swaync[3581]: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+May 26 17:14:05 chesszyh swaync[3581]: baseWidget.vala:47: notifications: Config not found! Using default config...
+May 26 17:14:05 chesszyh abrt-server[4091]: Executable '/home/chesszyh/.config/hypr/UserScripts/Weather.py' doesn't belong to any package and ProcessUnpackaged is set to 'no'
+May 26 17:14:05 chesszyh abrt-server[4091]: 'post-create' on '/var/spool/abrt/Python3-2026-05-26-17:14:05-3957' exited with 1
+May 26 17:14:05 chesszyh abrt-server[4091]: Deleting problem directory '/var/spool/abrt/Python3-2026-05-26-17:14:05-3957'
+May 26 17:14:06 chesszyh clash-verge[3547]: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
+May 26 17:14:06 chesszyh waybar[3583]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 26 17:14:06 chesszyh gnome-keyring-daemon[4784]: discover_other_daemon: 1
+May 26 17:14:06 chesszyh waybar[3583]: Status Notifier Item with bus name ':1.29' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 26 17:14:07 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:14:07 chesszyh systemd[2018]: cloudflared-cpa.service: Failed with result 'exit-code'.
+May 26 17:14:08 chesszyh waybar[3583]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 26 17:14:21 chesszyh systemd[1]: cloudflared.service: Failed with result 'exit-code'.
+May 26 17:14:21 chesszyh systemd[1]: Failed to start cloudflared.service - cloudflared.
+May 26 17:14:21 chesszyh chronyd[1465]: Can't synchronise: no selectable sources (8 unreachable sources)
+May 26 17:14:21 chesszyh systemd[2018]: cloudflared-cpa.service: Failed with result 'exit-code'.
+May 26 17:14:25 chesszyh goa-identity-se[5792]: GoaKerberosIdentityManager: Using polling for change notification for credential cache type 'KCM'
+May 26 17:14:35 chesszyh gvfsd-wsdd[7272]: Unable to connect to the wsdd socket: 没有那个文件或目录
+May 26 17:14:35 chesszyh gvfsd-network[7194]: Couldn't create directory monitor on wsdd:///. Error: 自动挂载失败：无法与底层 wsdd 守护程序建立连接。
+May 26 17:14:38 chesszyh systemd[2018]: cloudflared-cpa.service: Failed with result 'exit-code'.
+May 26 17:14:39 chesszyh systemd[1]: cloudflared.service: Failed with result 'exit-code'.
+May 26 17:14:39 chesszyh systemd[1]: Failed to start cloudflared.service - cloudflared.
+May 26 17:14:42 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:14:44 chesszyh gnome-keyring-daemon[3023]: asked to register item /org/freedesktop/secrets/collection/login/15, but it's already registered
+May 26 17:14:45 chesszyh irqbalance[1460]: Cannot change IRQ 144 affinity: Permission denied
+May 26 17:14:45 chesszyh irqbalance[1460]: IRQ 144 affinity is now unmanaged
+May 26 17:14:47 chesszyh systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+May 26 17:14:51 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q12.WM00], AE_NOT_FOUND (20251212/psargs-332)
+May 26 17:14:51 chesszyh kernel: ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q12 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 26 17:14:51 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q12.WM00], AE_NOT_FOUND (20251212/psargs-332)
+May 26 17:14:51 chesszyh kernel: ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q12 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 26 17:14:51 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q12.WM00], AE_NOT_FOUND (20251212/psargs-332)
+May 26 17:14:51 chesszyh kernel: ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q12 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 26 17:14:52 chesszyh kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q12.WM00], AE_NOT_FOUND (20251212/psargs-332)
+May 26 17:14:52 chesszyh kernel: ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q12 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+May 26 17:14:52 chesszyh chronyd[1465]: System clock wrong by -1.488214 seconds
+May 26 17:14:50 chesszyh chronyd[1465]: System clock was stepped by -1.488214 seconds
+May 26 17:15:22 chesszyh waybar[3583]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 26 17:15:59 chesszyh waybar[3583]: Status Notifier Item with bus name ':1.43' and object path '/org/ayatana/NotificationItem/tray_icon_tray_app_main' is already registered
+May 26 17:16:10 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:10 chesszyh sudo[15793]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:10 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:10 chesszyh sudo[15881]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:13 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:13 chesszyh sudo[16116]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:13 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:13 chesszyh sudo[16127]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:13 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:13 chesszyh sudo[16137]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:13 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:13 chesszyh sudo[16147]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:13 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:13 chesszyh sudo[16158]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:13 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:13 chesszyh sudo[16168]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:13 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:13 chesszyh sudo[16185]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:14 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:14 chesszyh sudo[16212]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:16 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:16 chesszyh sudo[17399]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:16 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:16 chesszyh sudo[17466]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:16 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:16 chesszyh sudo[17531]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:17 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:17 chesszyh sudo[17597]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:17 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:17 chesszyh sudo[17635]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:17 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:17 chesszyh sudo[17942]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:18 chesszyh kernel: ideapad_acpi VPC2004:00: conservation_mode attribute has been deprecated, see charge_types.
+May 26 17:16:18 chesszyh systemd-logind[1494]: Existing logind session ID 1 used by new audit session, ignoring.
+May 26 17:16:18 chesszyh sudo[18406]: pam_systemd(sudo:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+May 26 17:16:20 chesszyh nm-applet[3594]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+May 26 17:16:20 chesszyh clash-verge[3547]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+May 26 17:16:20 chesszyh clash-verge[3547]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+May 26 17:16:20 chesszyh swaync[18643]: Failed to deserialize "image-visibility" property of type "SwayNotificationCenterImageVisibility" for an object of type "SwayNotificationCenterConfigModel"
+May 26 17:16:21 chesszyh swaync[18643]: Using GtkSettings:gtk-application-prefer-dark-theme with libadwaita is unsupported. Please use AdwStyleManager:color-scheme instead.
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:26:5-27:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:66:5-67:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:82:5-83:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:93:5-94:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:98:5-99:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:103:5-104:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:107:5-108:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:115:5-116:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:124:5-125:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:130:5-131:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:134:5-135:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:140:5-141:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:148:5-149:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:157:5-158:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:165:5-166:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:180:5-181:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:184:5-185:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:192:5-193:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:240:5-241:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:245:5-246:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:276:5-277:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:280:5-281:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:296:5-297:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:302:5-303:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:307:5-308:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:312:5-313:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:321:5-322:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:326:5-327:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:334:2-335:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: Theme parser warning: style.css:343:5-344:1: Expected ';' at end of block
+May 26 17:16:21 chesszyh swaync[18643]: baseWidget.vala:47: notifications: Config not found! Using default config...
+May 26 17:16:21 chesszyh swaync[18643]: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+May 26 17:16:21 chesszyh swaync[18643]: baseWidget.vala:47: notifications: Config not found! Using default config...
+May 26 17:16:21 chesszyh swaync[18643]: Failed to deserialize "image-visibility" property of type "SwayNotificationCenterImageVisibility" for an object of type "SwayNotificationCenterConfigModel"
+May 26 17:16:21 chesszyh swaync[18643]: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+May 26 17:16:21 chesszyh swaync[18643]: baseWidget.vala:47: notifications: Config not found! Using default config...
+May 26 17:16:21 chesszyh waybar[18634]: Status Notifier Item with bus name ':1.29' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+May 26 17:16:21 chesszyh waybar[18634]: Status Notifier Item with bus name ':1.29' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered

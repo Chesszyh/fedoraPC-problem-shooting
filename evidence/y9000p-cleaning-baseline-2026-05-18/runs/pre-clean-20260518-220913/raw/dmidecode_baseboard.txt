@@ -1,0 +1,27 @@
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 3.4 present.
+
+Handle 0x0002, DMI type 2, 15 bytes
+Base Board Information
+	Manufacturer: LENOVO
+	Product Name: LNVNB161216
+	Version: SDK0T76479 WIN
+	Serial Number: PF4EW7HX
+	Asset Tag: NO Asset Tag
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Type2 - Board Chassis Location
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0037, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: IGD
+	Type: Video
+	Status: Disabled
+	Type Instance: 1
+	Bus Address: 0000:00:02.0
+

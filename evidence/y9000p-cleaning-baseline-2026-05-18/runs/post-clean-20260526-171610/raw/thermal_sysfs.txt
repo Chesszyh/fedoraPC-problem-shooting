@@ -1,0 +1,136 @@
+/home/chesszyh/.bashrc: line 795: bind: warning: line editing not enabled
+### /sys/class/thermal/thermal_zone0
+/sys/class/thermal/thermal_zone0/type:INT3400 Thermal
+/sys/class/thermal/thermal_zone0/temp:20000
+### /sys/class/thermal/thermal_zone1
+/sys/class/thermal/thermal_zone1/type:SEN1
+/sys/class/thermal/thermal_zone1/temp:40050
+/sys/class/thermal/thermal_zone1/trip_point_0_hyst:2000
+/sys/class/thermal/thermal_zone1/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone1/trip_point_0_type:passive
+/sys/class/thermal/thermal_zone1/trip_point_1_hyst:2000
+/sys/class/thermal/thermal_zone1/trip_point_1_temp:-274000
+/sys/class/thermal/thermal_zone1/trip_point_1_type:passive
+### /sys/class/thermal/thermal_zone10
+/sys/class/thermal/thermal_zone10/type:x86_pkg_temp
+/sys/class/thermal/thermal_zone10/temp:52000
+/sys/class/thermal/thermal_zone10/trip_point_0_hyst:0
+/sys/class/thermal/thermal_zone10/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone10/trip_point_0_type:passive
+/sys/class/thermal/thermal_zone10/trip_point_1_hyst:0
+/sys/class/thermal/thermal_zone10/trip_point_1_temp:-274000
+/sys/class/thermal/thermal_zone10/trip_point_1_type:passive
+### /sys/class/thermal/thermal_zone11
+/sys/class/thermal/thermal_zone11/type:iwlwifi_1
+/sys/class/thermal/thermal_zone11/temp:39000
+/sys/class/thermal/thermal_zone11/trip_point_0_hyst:0
+/sys/class/thermal/thermal_zone11/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone11/trip_point_0_type:passive
+/sys/class/thermal/thermal_zone11/trip_point_1_hyst:0
+/sys/class/thermal/thermal_zone11/trip_point_1_temp:-274000
+/sys/class/thermal/thermal_zone11/trip_point_1_type:passive
+/sys/class/thermal/thermal_zone11/trip_point_2_hyst:0
+/sys/class/thermal/thermal_zone11/trip_point_2_temp:-274000
+/sys/class/thermal/thermal_zone11/trip_point_2_type:passive
+/sys/class/thermal/thermal_zone11/trip_point_3_hyst:0
+/sys/class/thermal/thermal_zone11/trip_point_3_temp:-274000
+/sys/class/thermal/thermal_zone11/trip_point_3_type:passive
+/sys/class/thermal/thermal_zone11/trip_point_4_hyst:0
+/sys/class/thermal/thermal_zone11/trip_point_4_temp:-274000
+/sys/class/thermal/thermal_zone11/trip_point_4_type:passive
+/sys/class/thermal/thermal_zone11/trip_point_5_hyst:0
+/sys/class/thermal/thermal_zone11/trip_point_5_temp:-274000
+/sys/class/thermal/thermal_zone11/trip_point_5_type:passive
+/sys/class/thermal/thermal_zone11/trip_point_6_hyst:0
+/sys/class/thermal/thermal_zone11/trip_point_6_temp:-274000
+/sys/class/thermal/thermal_zone11/trip_point_6_type:passive
+/sys/class/thermal/thermal_zone11/trip_point_7_hyst:0
+/sys/class/thermal/thermal_zone11/trip_point_7_temp:-274000
+/sys/class/thermal/thermal_zone11/trip_point_7_type:passive
+### /sys/class/thermal/thermal_zone2
+/sys/class/thermal/thermal_zone2/type:SEN2
+/sys/class/thermal/thermal_zone2/temp:52050
+/sys/class/thermal/thermal_zone2/trip_point_0_hyst:2000
+/sys/class/thermal/thermal_zone2/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone2/trip_point_0_type:passive
+/sys/class/thermal/thermal_zone2/trip_point_1_hyst:2000
+/sys/class/thermal/thermal_zone2/trip_point_1_temp:-274000
+/sys/class/thermal/thermal_zone2/trip_point_1_type:passive
+### /sys/class/thermal/thermal_zone3
+/sys/class/thermal/thermal_zone3/type:SEN3
+/sys/class/thermal/thermal_zone3/temp:39050
+/sys/class/thermal/thermal_zone3/trip_point_0_hyst:2000
+/sys/class/thermal/thermal_zone3/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone3/trip_point_0_type:passive
+/sys/class/thermal/thermal_zone3/trip_point_1_hyst:2000
+/sys/class/thermal/thermal_zone3/trip_point_1_temp:-274000
+/sys/class/thermal/thermal_zone3/trip_point_1_type:passive
+### /sys/class/thermal/thermal_zone4
+/sys/class/thermal/thermal_zone4/type:SEN4
+/sys/class/thermal/thermal_zone4/temp:41050
+/sys/class/thermal/thermal_zone4/trip_point_0_hyst:2000
+/sys/class/thermal/thermal_zone4/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone4/trip_point_0_type:passive
+/sys/class/thermal/thermal_zone4/trip_point_1_hyst:2000
+/sys/class/thermal/thermal_zone4/trip_point_1_temp:-274000
+/sys/class/thermal/thermal_zone4/trip_point_1_type:passive
+### /sys/class/thermal/thermal_zone5
+/sys/class/thermal/thermal_zone5/type:SEN5
+/sys/class/thermal/thermal_zone5/temp:61050
+/sys/class/thermal/thermal_zone5/trip_point_0_hyst:2000
+/sys/class/thermal/thermal_zone5/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone5/trip_point_0_type:passive
+/sys/class/thermal/thermal_zone5/trip_point_1_hyst:2000
+/sys/class/thermal/thermal_zone5/trip_point_1_temp:-274000
+/sys/class/thermal/thermal_zone5/trip_point_1_type:passive
+### /sys/class/thermal/thermal_zone6
+/sys/class/thermal/thermal_zone6/type:SEN6
+/sys/class/thermal/thermal_zone6/temp:38050
+/sys/class/thermal/thermal_zone6/trip_point_0_hyst:2000
+/sys/class/thermal/thermal_zone6/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone6/trip_point_0_type:passive
+/sys/class/thermal/thermal_zone6/trip_point_1_hyst:2000
+/sys/class/thermal/thermal_zone6/trip_point_1_temp:-274000
+/sys/class/thermal/thermal_zone6/trip_point_1_type:passive
+### /sys/class/thermal/thermal_zone7
+/sys/class/thermal/thermal_zone7/type:SEN7
+/sys/class/thermal/thermal_zone7/temp:28050
+/sys/class/thermal/thermal_zone7/trip_point_0_hyst:2000
+/sys/class/thermal/thermal_zone7/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone7/trip_point_0_type:passive
+/sys/class/thermal/thermal_zone7/trip_point_1_hyst:2000
+/sys/class/thermal/thermal_zone7/trip_point_1_temp:-274000
+/sys/class/thermal/thermal_zone7/trip_point_1_type:passive
+### /sys/class/thermal/thermal_zone8
+/sys/class/thermal/thermal_zone8/type:TCPU
+/sys/class/thermal/thermal_zone8/temp:52050
+/sys/class/thermal/thermal_zone8/trip_point_0_hyst:0
+/sys/class/thermal/thermal_zone8/trip_point_0_temp:110050
+/sys/class/thermal/thermal_zone8/trip_point_0_type:critical
+/sys/class/thermal/thermal_zone8/trip_point_1_hyst:0
+/sys/class/thermal/thermal_zone8/trip_point_1_temp:110050
+/sys/class/thermal/thermal_zone8/trip_point_1_type:hot
+/sys/class/thermal/thermal_zone8/trip_point_2_hyst:0
+/sys/class/thermal/thermal_zone8/trip_point_2_temp:110050
+/sys/class/thermal/thermal_zone8/trip_point_2_type:passive
+/sys/class/thermal/thermal_zone8/trip_point_3_hyst:0
+/sys/class/thermal/thermal_zone8/trip_point_3_temp:109050
+/sys/class/thermal/thermal_zone8/trip_point_3_type:active
+/sys/class/thermal/thermal_zone8/trip_point_4_hyst:0
+/sys/class/thermal/thermal_zone8/trip_point_4_temp:107050
+/sys/class/thermal/thermal_zone8/trip_point_4_type:active
+/sys/class/thermal/thermal_zone8/trip_point_5_hyst:0
+/sys/class/thermal/thermal_zone8/trip_point_5_temp:106050
+/sys/class/thermal/thermal_zone8/trip_point_5_type:active
+/sys/class/thermal/thermal_zone8/trip_point_6_hyst:0
+/sys/class/thermal/thermal_zone8/trip_point_6_temp:104550
+/sys/class/thermal/thermal_zone8/trip_point_6_type:active
+/sys/class/thermal/thermal_zone8/trip_point_7_hyst:0
+/sys/class/thermal/thermal_zone8/trip_point_7_temp:103050
+/sys/class/thermal/thermal_zone8/trip_point_7_type:active
+### /sys/class/thermal/thermal_zone9
+/sys/class/thermal/thermal_zone9/type:TCPU_PCI
+/sys/class/thermal/thermal_zone9/temp:52000
+/sys/class/thermal/thermal_zone9/trip_point_0_hyst:0
+/sys/class/thermal/thermal_zone9/trip_point_0_temp:-274000
+/sys/class/thermal/thermal_zone9/trip_point_0_type:passive

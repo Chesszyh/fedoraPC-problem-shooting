@@ -1,0 +1,76 @@
+/home/chesszyh/.bashrc: line 795: bind: warning: line editing not enabled
+### /org/freedesktop/UPower/devices/battery_BAT0
+  native-path:          BAT0
+  vendor:               COSMX
+  model:                L22X4PC0
+  serial:               2864
+  power supply:         yes
+  updated:              Mon May 18 22:08:59 2026 (21 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              67.01 Wh
+    energy-empty:        0 Wh
+    energy-full:         70.53 Wh
+    energy-full-design:  80 Wh
+    voltage-min-design:  15.44 V
+    capacity-level:      Normal
+    energy-rate:         0 W
+    voltage:             15.613 V
+    charge-cycles:       110
+    percentage:          95%
+    capacity:            88.1625%
+    technology:          lithium-polymer
+    charge-threshold-supported:    yes
+    icon-name:          'battery-full-charged-symbolic'
+  History (voltage):
+    1779113339	15.613	fully-charged
+
+### /org/freedesktop/UPower/devices/line_power_ADP0
+  native-path:          ADP0
+  power supply:         yes
+  updated:              Mon May 18 17:57:01 2026 (15139 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+### /org/freedesktop/UPower/devices/battery_hidpp_battery_5
+  native-path:          hidpp_battery_5
+  model:                M720 Triathlon
+  serial:               de:a2:f9:df:f1:21
+  power supply:         no
+  updated:              Mon May 18 22:08:52 2026 (28 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  mouse
+    present:             yes
+    rechargeable:        yes
+    state:               discharging
+    warning-level:       none
+    battery-level:       normal
+    percentage:          55% (should be ignored)
+    icon-name:          'battery-low-symbolic'
+
+### /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         yes
+  updated:              Mon May 18 17:57:01 2026 (15139 seconds ago)
+  has history:          no
+  has statistics:       no
+  battery
+    present:             yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              67.01 Wh
+    energy-full:         70.53 Wh
+    energy-rate:         0 W
+    charge-cycles:       N/A
+    percentage:          95%
+    icon-name:          'battery-full-charged-symbolic'
+

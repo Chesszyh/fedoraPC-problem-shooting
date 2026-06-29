@@ -1,0 +1,2 @@
+NAME       TYPE      SIZE USED PRIO
+/dev/zram0 partition 7.7G   0B  100

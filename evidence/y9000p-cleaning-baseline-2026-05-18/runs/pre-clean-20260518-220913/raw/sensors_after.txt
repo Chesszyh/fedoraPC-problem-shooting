@@ -1,0 +1,56 @@
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +62.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +52.5 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +52.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +52.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +54.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +65.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +59.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +58.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +58.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +58.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +58.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +59.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +60.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +60.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +60.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +59.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +59.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +59.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +59.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +54.8 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+

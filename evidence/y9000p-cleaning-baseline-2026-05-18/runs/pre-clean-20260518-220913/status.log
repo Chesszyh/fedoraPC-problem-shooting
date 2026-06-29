@@ -1,0 +1,61 @@
+[2026-05-18T22:09:13+08:00] snapshot directory: /home/chesszyh/Documents/Reports/evidence/y9000p-cleaning-baseline-2026-05-18/runs/pre-clean-20260518-220913
+[2026-05-18T22:09:13+08:00] RUN date: date -Is
+[2026-05-18T22:09:13+08:00] RUN uname: uname -a
+[2026-05-18T22:09:13+08:00] RUN os-release: cp -a /etc/os-release /home/chesszyh/Documents/Reports/evidence/y9000p-cleaning-baseline-2026-05-18/runs/pre-clean-20260518-220913/raw/os-release.copy
+[2026-05-18T22:09:13+08:00] RUN kernel-cmdline: cp -a /proc/cmdline /home/chesszyh/Documents/Reports/evidence/y9000p-cleaning-baseline-2026-05-18/runs/pre-clean-20260518-220913/raw/kernel-cmdline.copy
+[2026-05-18T22:09:13+08:00] RUN uptime: uptime
+[2026-05-18T22:09:13+08:00] RUN who: who -a
+[2026-05-18T22:09:14+08:00] RUN free: free -h
+[2026-05-18T22:09:14+08:00] RUN swapon: swapon --show
+[2026-05-18T22:09:14+08:00] RUN lsblk: lsblk -O
+[2026-05-18T22:09:14+08:00] RUN findmnt: findmnt -R /
+[2026-05-18T22:09:14+08:00] RUN blkid: sudo -n blkid
+[2026-05-18T22:09:14+08:00] RUN lscpu: lscpu
+[2026-05-18T22:09:14+08:00] RUN lscpu_extended: lscpu -e
+[2026-05-18T22:09:14+08:00] RUN cpuinfo: bash -lc grep -E '^(processor|model name|microcode|cpu MHz|cache size|physical id|core id|siblings|cpu cores)' /proc/cpuinfo
+[2026-05-18T22:09:14+08:00] RUN cpu_governors: bash -lc grep -H . /sys/devices/system/cpu/cpu*/cpufreq/scaling_{driver,governor,min_freq,max_freq,cur_freq} 2>/dev/null | sort
+[2026-05-18T22:09:15+08:00] RUN fastfetch: fastfetch
+[2026-05-18T22:09:15+08:00] RUN inxi_full: inxi -Fxxxz
+[2026-05-18T22:09:17+08:00] RUN dmidecode_all: sudo -n dmidecode
+[2026-05-18T22:09:17+08:00] RUN dmidecode_system: sudo -n dmidecode -t system
+[2026-05-18T22:09:17+08:00] RUN dmidecode_baseboard: sudo -n dmidecode -t baseboard
+[2026-05-18T22:09:17+08:00] RUN dmidecode_bios: sudo -n dmidecode -t bios
+[2026-05-18T22:09:17+08:00] RUN dmidecode_processor: sudo -n dmidecode -t processor
+[2026-05-18T22:09:17+08:00] RUN dmidecode_memory: sudo -n dmidecode -t memory
+[2026-05-18T22:09:17+08:00] RUN lspci_nn: lspci -nn
+[2026-05-18T22:09:17+08:00] RUN lspci_vv: sudo -n lspci -nnvv
+[2026-05-18T22:09:17+08:00] RUN lsusb: lsusb
+[2026-05-18T22:09:17+08:00] RUN lsusb_tree: lsusb -tv
+[2026-05-18T22:09:17+08:00] RUN lsusb_verbose: sudo -n lsusb -v
+[2026-05-18T22:09:17+08:00] RUN sensors: sensors
+[2026-05-18T22:09:17+08:00] RUN sensors_json: sensors -j
+[2026-05-18T22:09:17+08:00] RUN thermal_sysfs: bash -lc for z in /sys/class/thermal/thermal_zone*; do echo '###' $z; grep -H . $z/type $z/temp $z/trip_point_* 2>/dev/null; done
+[2026-05-18T22:09:18+08:00] RUN cooling_sysfs: bash -lc for c in /sys/class/thermal/cooling_device*; do echo '###' $c; grep -H . $c/type $c/cur_state $c/max_state 2>/dev/null; done
+[2026-05-18T22:09:18+08:00] RUN hwmon_sysfs: bash -lc for h in /sys/class/hwmon/hwmon*; do echo '###' $h; grep -H . $h/name $h/*_label $h/temp*_input $h/fan*_input $h/pwm* 2>/dev/null; done
+[2026-05-18T22:09:19+08:00] RUN nvidia_smi: nvidia-smi
+[2026-05-18T22:09:19+08:00] RUN nvidia_smi_query: nvidia-smi --query-gpu=name,uuid,gpu_bus_id,pci.device_id,pci.sub_device_id,vbios_version,driver_version,pstate,temperature.gpu,power.draw,power.limit,clocks.gr,clocks.mem,memory.total,memory.used --format=csv
+[2026-05-18T22:09:19+08:00] RUN nvidia_smi_q: nvidia-smi -q
+[2026-05-18T22:09:19+08:00] RUN nvidia_smi_q_xml: nvidia-smi -q -x
+[2026-05-18T22:09:19+08:00] RUN nvidia_smi_supported_clocks: nvidia-smi -q -d SUPPORTED_CLOCKS
+[2026-05-18T22:09:19+08:00] RUN glxinfo_summary: glxinfo -B
+[2026-05-18T22:09:19+08:00] RUN nvme_list: sudo -n nvme list
+[2026-05-18T22:09:19+08:00] RUN nvme_nvme0_id_ctrl: sudo -n nvme id-ctrl /dev/nvme0
+[2026-05-18T22:09:20+08:00] RUN nvme_nvme0_smart_log: sudo -n nvme smart-log /dev/nvme0
+[2026-05-18T22:09:20+08:00] RUN nvme_nvme0_error_log: sudo -n nvme error-log /dev/nvme0
+[2026-05-18T22:09:20+08:00] RUN smartctl_nvme0: sudo -n smartctl -a /dev/nvme0
+[2026-05-18T22:09:20+08:00] RUN upower_devices: upower -e
+[2026-05-18T22:09:20+08:00] RUN upower_dump: bash -lc for d in $(upower -e); do echo '###' $d; upower -i $d; done
+[2026-05-18T22:09:20+08:00] RUN tlp_stat_all: sudo -n tlp-stat
+[2026-05-18T22:09:21+08:00] RUN tlp_stat_battery: sudo -n tlp-stat -b
+[2026-05-18T22:09:21+08:00] RUN fwupdmgr_devices: fwupdmgr get-devices
+[2026-05-18T22:09:24+08:00] RUN rpm_key_packages: bash -lc rpm -qa | sort | grep -Ei '^(kernel|nvidia|akmod|kmod|xorg-x11-drv-nvidia|mesa|vulkan|hyprland|linux-firmware|tlp|lm_sensors|stress-ng|nvme-cli|smartmontools)'
+[2026-05-18T22:09:27+08:00] RUN journal_current_boot_errors: journalctl -b -p warning..alert --no-pager
+[2026-05-18T22:09:27+08:00] RUN dmesg_errors: sudo -n dmesg -T --level=err,warn
+[2026-05-18T22:09:27+08:00] idle monitoring for 60 seconds
+[2026-05-18T22:10:29+08:00] CPU stress test: 180 seconds with sensor monitoring
+[2026-05-18T22:10:29+08:00] RUN turbostat_cpu_stress: sudo -n turbostat --quiet --Summary --interval 5 --num_iterations 36 --show Busy%,Bzy_MHz,Avg_MHz,TSC_MHz,CPU%c1,CPU%c6,CoreTmp,PkgTmp,PkgWatt,GFXWatt,RAMWatt -- stress-ng --cpu 0 --cpu-method matrixprod --metrics-brief --timeout 180s
+[2026-05-18T22:13:42+08:00] short memory stress test: 90 seconds
+[2026-05-18T22:13:42+08:00] RUN stress_ng_memory: stress-ng --vm 2 --vm-bytes 70% --metrics-brief --timeout 90s
+[2026-05-18T22:15:26+08:00] RUN sensors_after: sensors
+[2026-05-18T22:15:26+08:00] RUN nvidia_smi_after: nvidia-smi -q
+[2026-05-18T22:15:26+08:00] snapshot complete: /home/chesszyh/Documents/Reports/evidence/y9000p-cleaning-baseline-2026-05-18/runs/pre-clean-20260518-220913

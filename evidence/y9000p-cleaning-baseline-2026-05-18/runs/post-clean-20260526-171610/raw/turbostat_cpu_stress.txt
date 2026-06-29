@@ -1,0 +1,13 @@
+stress-ng: info:  [23046] setting to a 3 mins run per stressor
+stress-ng: info:  [23046] dispatching hogs: 32 cpu
+stress-ng: metrc: [23046] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [23046]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [23046] cpu             7691520    180.00   5530.51      4.70     42730.46        1389.56
+stress-ng: info:  [23046] skipped: 0
+stress-ng: info:  [23046] passed: 32: cpu (32)
+stress-ng: info:  [23046] failed: 0
+stress-ng: info:  [23046] metrics untrustworthy: 0
+stress-ng: info:  [23046] successful run completed in 3 mins
+180.025580 sec
+Avg_MHz	Busy%	Bzy_MHz	TSC_MHz	CPU%c1	CPU%c6	CoreTmp	PkgTmp	PkgWatt	GFXWatt	RAMWatt
+3388	98.26	3448	2419	0.02	0.08	77	77	119.53	0.00	0.00

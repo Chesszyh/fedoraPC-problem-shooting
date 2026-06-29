@@ -1,0 +1,1104 @@
+### 2026-05-18T22:09:27+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +51.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +51.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +62.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +64.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +58.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +58.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +58.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +58.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:09:27+08:00 nvidia
+2026/05/18 22:09:27.858, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P4, 49, 8.43, [N/A], 585, 6001, 14, 3, 682
+### 2026-05-18T22:09:27+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1056435
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:1001758
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:932624
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:1227849
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:1599776
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:1596783
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:1597229
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:1600014
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:1744567
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:1580896
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:1599983
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:1165539
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:916259
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:1600011
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:1601344
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:1599894
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:1599949
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:903245
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:963858
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:889831
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:1305208
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:849313
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:1467807
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:2152686
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:1348332
+### 2026-05-18T22:09:32+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +51.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +51.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +56.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +62.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +48.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:09:32+08:00 nvidia
+2026/05/18 22:09:33.013, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P3, 49, 10.05, [N/A], 1095, 7001, 10, 3, 683
+### 2026-05-18T22:09:33+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:800296
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:1122188
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:2200022
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:1216795
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:1460676
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:1600133
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:1599566
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:1105773
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:1599991
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:802185
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:1442132
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:1426260
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:799953
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:799955
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:1408829
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:1345181
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:1524369
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:1596262
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:1600057
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:982042
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:1598919
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:1141558
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:1861810
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:800392
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000
+### 2026-05-18T22:09:38+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +51.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +51.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +54.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +64.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:09:38+08:00 nvidia
+2026/05/18 22:09:38.149, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P5, 49, 9.26, [N/A], 615, 810, 35, 35, 683
+### 2026-05-18T22:09:38+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:1475826
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:909876
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:1548816
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:802233
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:800385
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:1498116
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:1587733
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:1537134
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:800286
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:1327907
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:1544260
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:1599972
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:1433531
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:1496453
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:1337236
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:1193045
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:800188
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:1634487
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000
+### 2026-05-18T22:09:43+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +51.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +51.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +55.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +62.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +49.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:09:43+08:00 nvidia
+2026/05/18 22:09:43.309, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P3, 49, 9.88, [N/A], 1170, 7001, 7, 2, 683
+### 2026-05-18T22:09:43+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:930697
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:988971
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:1094809
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:1138753
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:1083800
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:799565
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:799843
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:798915
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:1260393
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:1598453
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:1599948
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:1599990
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:800631
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:928990
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:1840857
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000
+### 2026-05-18T22:09:48+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +51.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +51.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +60.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +64.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:09:48+08:00 nvidia
+2026/05/18 22:09:48.446, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P4, 49, 11.02, [N/A], 615, 6001, 39, 8, 683
+### 2026-05-18T22:09:48+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1208854
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800929
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:1409239
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:2188152
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:1309509
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:799372
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:981888
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:801503
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:1360921
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:1599965
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:1580222
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:1281576
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:1391411
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000
+### 2026-05-18T22:09:53+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +51.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +51.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +63.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +65.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:09:53+08:00 nvidia
+2026/05/18 22:09:53.590, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P0, 50, 17.56, [N/A], 1110, 8001, 21, 6, 683
+### 2026-05-18T22:09:53+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1304737
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:800636
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:1301148
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:996904
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:992431
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:984379
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:800598
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:1342189
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:1600018
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:799567
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:1578504
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:1070512
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:1490639
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:1334078
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:1889504
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000
+### 2026-05-18T22:09:58+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +52.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +52.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +56.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +61.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:09:58+08:00 nvidia
+2026/05/18 22:09:58.748, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P4, 49, 10.69, [N/A], 645, 6001, 22, 4, 683
+### 2026-05-18T22:09:58+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1224809
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:2200022
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:800208
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:800612
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:1424178
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:1310587
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:832822
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:1599986
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:1600116
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:1436270
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:800496
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:1786174
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:1710008
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:2199977
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000
+### 2026-05-18T22:10:03+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +52.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +52.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +55.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +62.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +49.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +49.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +47.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:10:03+08:00 nvidia
+2026/05/18 22:10:03.923, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P8, 49, 5.47, [N/A], 360, 405, 31, 29, 683
+### 2026-05-18T22:10:03+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1293346
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:800326
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:1817806
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:1580283
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:1321089
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:1210222
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:1401394
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:1634320
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:885261
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:1586390
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:1600068
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:1487334
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:1600263
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:1599953
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:1355890
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:1988614
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000
+### 2026-05-18T22:10:08+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +52.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +52.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +54.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +61.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +49.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:10:09+08:00 nvidia
+2026/05/18 22:10:09.094, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P4, 49, 9.12, [N/A], 510, 6001, 10, 2, 683
+### 2026-05-18T22:10:09+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1379736
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:2199977
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:1123032
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:798343
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:1702892
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:800472
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:1600012
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:1600023
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:1552460
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:1578863
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:1324689
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000
+### 2026-05-18T22:10:14+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +51.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +51.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +53.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +61.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +48.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +49.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:10:14+08:00 nvidia
+2026/05/18 22:10:14.255, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P5, 49, 6.86, [N/A], 360, 810, 15, 13, 683
+### 2026-05-18T22:10:14+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:2084336
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:800413
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:1018894
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:2200022
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:1381936
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:1551805
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:799454
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:1599953
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:800295
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:800656
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:1828031
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:1472975
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:2200000
+### 2026-05-18T22:10:19+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +52.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +52.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +54.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +61.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +49.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:10:19+08:00 nvidia
+2026/05/18 22:10:19.414, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P3, 49, 13.31, [N/A], 1890, 7001, 3, 2, 683
+### 2026-05-18T22:10:19+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1621885
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:2140668
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:1477874
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:1297349
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:1600006
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:1183488
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:800718
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:800699
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:799740
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:1168867
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:1082928
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:1066965
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800644
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:2199977
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000
+### 2026-05-18T22:10:24+08:00 sensors
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+ERROR: Can't get value of subfeature temp1_max_alarm: Can't read
+iwlwifi_1-virtual-0
+Adapter: Virtual device
+temp1:        +60.0 C  
+
+spd5118-i2c-5-52
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +49.0 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +51.9 C  (low  = -273.1 C, high = +75.8 C)
+                       (crit = +86.8 C)
+Sensor 1:     +51.9 C  (low  = -273.1 C, high = +65261.8 C)
+Sensor 2:     +53.9 C  (low  = -273.1 C, high = +65261.8 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +61.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 0:        +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 4:        +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 8:        +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 12:       +49.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 16:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 20:       +50.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 24:       +55.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 28:       +51.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 32:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 33:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 34:       +52.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 35:       +53.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 36:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 37:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 38:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 39:       +56.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 40:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 41:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 42:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 43:       +57.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 44:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 45:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 46:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+Core 47:       +54.0 C  (high = +100.0 C, crit = +100.0 C)
+
+spd5118-i2c-5-50
+Adapter: SMBus I801 adapter at 0000:00:1f.4
+temp1:        +50.2 C  (low  =  +0.0 C, high = +55.0 C)
+                       (crit low =  +0.0 C, crit = +85.0 C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          15.61 V  
+power1:        0.00 W  
+
+### 2026-05-18T22:10:24+08:00 nvidia
+2026/05/18 22:10:24.565, NVIDIA GeForce RTX 4060 Laptop GPU, GPU-5011cbcd-7033-6444-66e7-e485ade01645, P5, 48, 6.78, [N/A], 405, 810, 15, 14, 683
+### 2026-05-18T22:10:24+08:00 cpu_frequency
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1573489
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu10/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu11/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu12/cpufreq/scaling_cur_freq:815382
+/sys/devices/system/cpu/cpu13/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu14/cpufreq/scaling_cur_freq:902073
+/sys/devices/system/cpu/cpu15/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu16/cpufreq/scaling_cur_freq:1600006
+/sys/devices/system/cpu/cpu17/cpufreq/scaling_cur_freq:1599908
+/sys/devices/system/cpu/cpu18/cpufreq/scaling_cur_freq:800293
+/sys/devices/system/cpu/cpu19/cpufreq/scaling_cur_freq:1346154
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:820792
+/sys/devices/system/cpu/cpu20/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu21/cpufreq/scaling_cur_freq:1599958
+/sys/devices/system/cpu/cpu22/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu23/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu24/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu25/cpufreq/scaling_cur_freq:800833
+/sys/devices/system/cpu/cpu26/cpufreq/scaling_cur_freq:799448
+/sys/devices/system/cpu/cpu27/cpufreq/scaling_cur_freq:799640
+/sys/devices/system/cpu/cpu28/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu29/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu30/cpufreq/scaling_cur_freq:800037
+/sys/devices/system/cpu/cpu31/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq:1687783
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq:800000
+/sys/devices/system/cpu/cpu8/cpufreq/scaling_cur_freq:2200000
+/sys/devices/system/cpu/cpu9/cpufreq/scaling_cur_freq:800000

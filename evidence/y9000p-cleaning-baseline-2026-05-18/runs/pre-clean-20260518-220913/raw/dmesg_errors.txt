@@ -1,0 +1,59 @@
+[Mon May 18 12:15:04 2026] [Firmware Bug]: TSC ADJUST: CPU0: -4535180519 force to 0
+[Mon May 18 12:15:04 2026] [Firmware Bug]: TSC ADJUST differs within socket(s), fixing all errors
+[Mon May 18 12:15:04 2026]   #1  #3  #5  #7  #9 #11 #13 #15
+[Mon May 18 12:15:05 2026] hpet_acpi_add: no address or irqs in _CRS
+[Mon May 18 12:15:05 2026] i2c_designware i2c_designware.4: [Firmware Bug]: DSDT uses known not-working I2C bus speed 400000, forcing it to 100000
+[Mon May 18 12:15:05 2026] i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+[Mon May 18 12:15:05 2026] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[Mon May 18 12:15:09 2026] systemd-sysv-generator[753]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Mon May 18 12:15:09 2026] systemd-sysv-generator[753]: Please update package to include a native systemd unit file.
+[Mon May 18 12:15:09 2026] systemd-sysv-generator[753]: ! This compatibility logic is deprecated, expect removal soon. !
+[Mon May 18 12:15:09 2026] systemd-sysv-generator[753]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Mon May 18 12:15:09 2026] systemd-sysv-generator[753]: Please update package to include a native systemd unit file.
+[Mon May 18 12:15:09 2026] systemd-sysv-generator[753]: ! This compatibility logic is deprecated, expect removal soon. !
+[Mon May 18 12:15:09 2026] vmmon: loading out-of-tree module taints kernel.
+[Mon May 18 12:15:10 2026] r8169 0000:08:00.0: can't disable ASPM; OS doesn't have ASPM control
+[Mon May 18 12:15:10 2026] lenovo_wmi_other DC2A8805-3A8C-41BA-A6F7-092E0089CD3B-6: fan reporting/tuning is unsupported on this device
+[Mon May 18 12:15:10 2026] spi-nor spi0.0: supply vcc not found, using dummy regulator
+[Mon May 18 12:15:10 2026] spi-nor spi0.1: supply vcc not found, using dummy regulator
+[Mon May 18 12:15:10 2026] tlp: vm.laptop_mode is deprecated. Ignoring setting.
+
+[Mon May 18 12:15:11 2026] NVRM: loading NVIDIA UNIX Open Kernel Module for x86_64  580.159.03  Release Build  (dvs-builder@U22-I3-AM27-29-6)  Fri Apr 24 06:03:03 UTC 2026
+[Mon May 18 12:15:11 2026] NVRM: testIfDsmSubFunctionEnabled: GPS ACPI DSM called before _acpiDsmSupportedFuncCacheInit subfunction = 11.
+[Mon May 18 12:15:12 2026] NVRM: testIfDsmSubFunctionEnabled: GPS ACPI DSM called before _acpiDsmSupportedFuncCacheInit subfunction = 11.
+[Mon May 18 12:15:14 2026] nvme nvme0: using unchecked data buffer
+[Mon May 18 12:15:15 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_TZ.ETMD], AE_NOT_FOUND (20251212/psargs-332)
+[Mon May 18 12:15:15 2026] ACPI Error: Aborting method \_SB.IETM._OSC due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Mon May 18 12:15:15 2026] Thread-1 (_thre: vm.laptop_mode is deprecated. Ignoring setting.
+[Mon May 18 14:39:37 2026] systemd-sysv-generator[613234]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Mon May 18 14:39:37 2026] systemd-sysv-generator[613234]: Please update package to include a native systemd unit file.
+[Mon May 18 14:39:37 2026] systemd-sysv-generator[613234]: ! This compatibility logic is deprecated, expect removal soon. !
+[Mon May 18 14:39:37 2026] systemd-sysv-generator[613234]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Mon May 18 14:39:37 2026] systemd-sysv-generator[613234]: Please update package to include a native systemd unit file.
+[Mon May 18 14:39:37 2026] systemd-sysv-generator[613234]: ! This compatibility logic is deprecated, expect removal soon. !
+[Mon May 18 14:40:21 2026] block nvme0n1: the capability attribute has been deprecated.
+[Mon May 18 14:40:54 2026] systemd-sysv-generator[630302]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Mon May 18 14:40:54 2026] systemd-sysv-generator[630302]: Please update package to include a native systemd unit file.
+[Mon May 18 14:40:54 2026] systemd-sysv-generator[630302]: ! This compatibility logic is deprecated, expect removal soon. !
+[Mon May 18 14:40:54 2026] systemd-sysv-generator[630302]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Mon May 18 14:40:54 2026] systemd-sysv-generator[630302]: Please update package to include a native systemd unit file.
+[Mon May 18 14:40:54 2026] systemd-sysv-generator[630302]: ! This compatibility logic is deprecated, expect removal soon. !
+[Mon May 18 14:41:12 2026] systemd-sysv-generator[638912]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Mon May 18 14:41:12 2026] systemd-sysv-generator[638912]: Please update package to include a native systemd unit file.
+[Mon May 18 14:41:12 2026] systemd-sysv-generator[638912]: ! This compatibility logic is deprecated, expect removal soon. !
+[Mon May 18 14:41:12 2026] systemd-sysv-generator[638912]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Mon May 18 14:41:12 2026] systemd-sysv-generator[638912]: Please update package to include a native systemd unit file.
+[Mon May 18 14:41:12 2026] systemd-sysv-generator[638912]: ! This compatibility logic is deprecated, expect removal soon. !
+[Mon May 18 16:42:48 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q44.WM00], AE_NOT_FOUND (20251212/psargs-332)
+[Mon May 18 16:42:48 2026] ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q44 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Mon May 18 16:42:48 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q44.WM00], AE_NOT_FOUND (20251212/psargs-332)
+[Mon May 18 16:42:48 2026] ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q44 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Mon May 18 16:42:49 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q44.WM00], AE_NOT_FOUND (20251212/psargs-332)
+[Mon May 18 16:42:49 2026] ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q44 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Mon May 18 17:55:38 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q38.PNOT], AE_NOT_FOUND (20251212/psargs-332)
+[Mon May 18 17:55:38 2026] ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q38 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Mon May 18 17:55:38 2026] tlp: vm.laptop_mode is deprecated. Ignoring setting.
+[Mon May 18 17:57:01 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q37.PNOT], AE_NOT_FOUND (20251212/psargs-332)
+[Mon May 18 17:57:01 2026] ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q37 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Mon May 18 17:57:01 2026] tlp: vm.laptop_mode is deprecated. Ignoring setting.
+[Mon May 18 22:09:22 2026] ideapad_acpi VPC2004:00: conservation_mode attribute has been deprecated, see charge_types.

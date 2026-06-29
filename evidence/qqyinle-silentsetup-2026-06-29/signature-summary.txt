@@ -1,0 +1,71 @@
+# signature summary
+===== SilentSetup.exe
+1:No signature found
+3:Current PE checksum   : 00000000
+4:Calculated PE checksum: 067052AB
+5:Warning: invalid PE checksum
+6:Failed
+===== analysis-evidence/extracted/HWSignature.dll
+1:No signature found
+3:PE checksum   : 0001275F
+4:Failed
+===== analysis-evidence/extracted/ImageMagik.dll
+1:PE checksum   : 005EAD7B
+6:Current message digest    : 59AB59BBF313FC8533E29CA6B75D4CD1840CA27D67CCD86AA117D268426257E3 
+7:Calculated message digest : 59AB59BBF313FC8533E29CA6B75D4CD1840CA27D67CCD86AA117D268426257E3 
+12:		Subject: CN=Beijing Sogou Technology Development Co.\, Ltd.,O=Beijing Sogou Technology Development Co.\, Ltd.,ST=Beijing,C=CN
+26:	Timestamp time: Nov 11 05:50:21 2025 GMT
+38:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+47:		Subject: CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1,O=DigiCert\, Inc.,C=US
+56:		Subject: CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1,O=DigiCert\, Inc.,C=US
+71:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+80:		Subject: CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1,O=DigiCert\, Inc.,C=US
+89:		Subject: CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1,O=DigiCert\, Inc.,C=US
+104:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+113:		Subject: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1,O=DigiCert\, Inc.,C=US
+122:		Subject: CN=Beijing Sogou Technology Development Co.\, Ltd.,O=Beijing Sogou Technology Development Co.\, Ltd.,ST=Beijing,C=CN
+137:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+146:		Subject: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1,O=DigiCert\, Inc.,C=US
+155:		Subject: CN=Beijing Sogou Technology Development Co.\, Ltd.,O=Beijing Sogou Technology Development Co.\, Ltd.,ST=Beijing,C=CN
+166:Succeeded
+===== analysis-evidence/extracted/QQMusic_Setup_2228.exe
+1:PE checksum   : 063C7962
+6:Current message digest    : CA53D2AAEF1A8E6C7C5056FC5ABFB5CF12DD983E28B8336D2F5F8EB4D50EF53E 
+7:Calculated message digest : CA53D2AAEF1A8E6C7C5056FC5ABFB5CF12DD983E28B8336D2F5F8EB4D50EF53E 
+12:		Subject: CN=Tencent Technology (Shenzhen) Company Limited,O=Tencent Technology (Shenzhen) Company Limited,L=Shenzhen,ST=Guangdong Province,C=CN,serialNumber=9144030071526726XG,businessCategory=Private Organization,jurisdictionL=Shenzhen,jurisdictionST=Guangdong Province,jurisdictionC=CN
+26:	Timestamp time: Jun  9 05:29:54 2026 GMT
+38:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+47:		Subject: CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1,O=DigiCert\, Inc.,C=US
+56:		Subject: CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1,O=DigiCert\, Inc.,C=US
+71:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+80:		Subject: CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1,O=DigiCert\, Inc.,C=US
+89:		Subject: CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1,O=DigiCert\, Inc.,C=US
+104:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+113:		Subject: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1,O=DigiCert\, Inc.,C=US
+122:		Subject: CN=Tencent Technology (Shenzhen) Company Limited,O=Tencent Technology (Shenzhen) Company Limited,L=Shenzhen,ST=Guangdong Province,C=CN,serialNumber=9144030071526726XG,businessCategory=Private Organization,jurisdictionL=Shenzhen,jurisdictionST=Guangdong Province,jurisdictionC=CN
+137:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+146:		Subject: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1,O=DigiCert\, Inc.,C=US
+155:		Subject: CN=Tencent Technology (Shenzhen) Company Limited,O=Tencent Technology (Shenzhen) Company Limited,L=Shenzhen,ST=Guangdong Province,C=CN,serialNumber=9144030071526726XG,businessCategory=Private Organization,jurisdictionL=Shenzhen,jurisdictionST=Guangdong Province,jurisdictionC=CN
+166:Succeeded
+===== analysis-evidence/extracted/proxy.exe
+1:Initialization error or unsupported input file type.
+4:Failed
+===== analysis-evidence/extracted/sgfeedbackhelper.exe
+1:PE checksum   : 00332491
+6:Current message digest    : 523D176A29FE7691873BED1A79D3B695D7FF09073391ACC4B4D373D44A9A0A0F 
+7:Calculated message digest : 523D176A29FE7691873BED1A79D3B695D7FF09073391ACC4B4D373D44A9A0A0F 
+12:		Subject: CN=Beijing Sogou Technology Development Co.\, Ltd.,O=Beijing Sogou Technology Development Co.\, Ltd.,ST=Beijing,C=CN
+26:	Timestamp time: Nov 21 11:52:49 2025 GMT
+38:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+47:		Subject: CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1,O=DigiCert\, Inc.,C=US
+56:		Subject: CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1,O=DigiCert\, Inc.,C=US
+71:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+80:		Subject: CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1,O=DigiCert\, Inc.,C=US
+89:		Subject: CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1,O=DigiCert\, Inc.,C=US
+104:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+113:		Subject: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1,O=DigiCert\, Inc.,C=US
+122:		Subject: CN=Beijing Sogou Technology Development Co.\, Ltd.,O=Beijing Sogou Technology Development Co.\, Ltd.,ST=Beijing,C=CN
+137:		Subject: CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US
+146:		Subject: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1,O=DigiCert\, Inc.,C=US
+155:		Subject: CN=Beijing Sogou Technology Development Co.\, Ltd.,O=Beijing Sogou Technology Development Co.\, Ltd.,ST=Beijing,C=CN
+166:Succeeded

@@ -1,0 +1,13 @@
+stress-ng: info:  [2242642] setting to a 1 min 30 secs run per stressor
+stress-ng: info:  [2242642] dispatching hogs: 2 vm
+stress-ng: info:  [2242642] note: turbo is disabled and this may impact top performance; setting /sys/devices/system/cpu/intel_pstate/no_turbo to 0 may improve performance.
+stress-ng: info:  [2242642] note: 32 cpus have scaling governors set to powersave and this may impact performance; setting /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor to 'performance' may improve performance
+stress-ng: info:  [2242643] vm: using 140.12MB per stressor instance (total 280.23MB of 400.71MB available memory)
+stress-ng: metrc: [2242642] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [2242642]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [2242642] vm              8083111     90.35    135.98     43.94     89462.29       44926.59
+stress-ng: info:  [2242642] skipped: 0
+stress-ng: info:  [2242642] passed: 2: vm (2)
+stress-ng: info:  [2242642] failed: 0
+stress-ng: info:  [2242642] metrics untrustworthy: 0
+stress-ng: info:  [2242642] successful run completed in 1 min 30.68 secs

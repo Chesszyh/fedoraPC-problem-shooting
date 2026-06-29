@@ -1,0 +1,95 @@
+12System:
+  12Kernel 7.0.4-100.fc43.x86_64 12arch x86_64 12bits 64 12compiler gcc 12v 15.2.1 12clocksource tsc
+  12Desktop Hyprland 12v 0.51.1 12with waybar 12tools hypridle 12vt 2 12dm SDDM 12Distro Fedora Linux 43
+    (Workstation Edition)
+12Machine:
+  12Type Laptop 12System LENOVO 12product 82WK 12v Legion Y9000P IRX8 12serial <superuser required> 12Chassis
+    12type 10 12v Legion Y9000P IRX8 12serial <superuser required>
+  12Mobo LENOVO 12model LNVNB161216 12v SDK0T76479 WIN 12serial <superuser required>
+    12part-nu LENOVO_MT_82WK_BU_idea_FM_Legion Y9000P IRX8 12uuid <superuser required> 12Firmware UEFI
+    12vendor LENOVO 12v KWCN36WW 12date 04/28/2023
+12Battery:
+  12ID-1 BAT0 12charge 67 Wh (95%) 12condition 70.5/80 Wh (88.2%) 12volts 15.61 12min 15.44
+    12model COSMX L22X4PC0 12type Li-poly 12serial <filter> 12charging 12status not charging 12type fast
+    12cycles 110
+  12Device-1 hidpp_battery_5 12model Logitech M720 Triathlon Multi-Device Mouse 12serial <filter>
+    12charge 55% (should be ignored) 12rechargeable yes 12status discharging
+12CPU:
+  12Info 24-core (8-mt/16-st) 12model 13th Gen Intel Core i9-13900HX 12bits 64 12type MST AMCP 12smt enabled
+    12arch Raptor Lake 12rev 1 12cache 12L1 2.1 MiB 12L2 32 MiB 12L3 36 MiB
+  12Speed (MHz) 12avg 1356 12min/max 800/2200:1600 12cores 121 1356 122 1356 123 1356 124 1356 125 1356 126 1356
+    127 1356 128 1356 129 1356 1210 1356 1211 1356 1212 1356 1213 1356 1214 1356 1215 1356 1216 1356 1217 1356 1218 1356
+    1219 1356 1220 1356 1221 1356 1222 1356 1223 1356 1224 1356 1225 1356 1226 1356 1227 1356 1228 1356 1229 1356 1230 1356
+    1231 1356 1232 1356 12bogomips 154828
+  12Flags-basic avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx
+12Graphics:
+  12Device-1 NVIDIA AD107M [GeForce RTX 4060 Max-Q / Mobile] 12vendor Lenovo 12driver nvidia 12v 580.159.03
+    12arch Lovelace 12pcie 12speed 5 GT/s 12lanes 8 12ports 12active eDP-1 12empty DP-1,DP-2,HDMI-A-1
+    12bus-ID 01:00.0 12chip-ID 10de:28e0 12class-ID 0300
+  12Device-2 Luxvisions Innotech Integrated Camera 12driver uvcvideo 12type USB 12rev 2.0 12speed 480 Mb/s
+    12lanes 1 12bus-ID 1-11:3 12chip-ID 30c9:00a6 12class-ID 0e02 12serial <filter>
+  12Display wayland 12server Xwayland 12v 24.1.11 12compositor Hyprland 12v 0.51.1 12driver
+    12gpu nv_platform,nvidia,nvidia-nvswitch 12display-ID 1
+  12Monitor-1 eDP-1 12model BOE Display 0x0b8b 12serial <filter> 12res 2560x1600 12dpi 188
+    12size 345x215mm (13.58x8.46") 12diag 407mm (16") 12modes 2560x1600
+  12API OpenGL 12v 4.6.0 12vendor nvidia 12v 580.159.03 12glx-v 1.4 12direct-render yes 12renderer NVIDIA
+    GeForce RTX 4060 Laptop GPU/PCIe/SSE2
+  12API EGL 12Message EGL data requires eglinfo. Check --recommends.
+  12Info 12Tools 12api glxinfo 12gpu nvidia-settings,nvidia-smi 12wl nwg-displays 12x11 xdriinfo, xdpyinfo,
+    xprop, xrandr
+12Audio:
+  12Device-1 Intel Raptor Lake High Definition Audio 12vendor Lenovo 12driver snd_hda_intel 12v kernel
+    12bus-ID 00:1f.3 12chip-ID 8086:7a50 12class-ID 0403
+  12Device-2 NVIDIA AD107 High Definition Audio 12driver snd_hda_intel 12v kernel 12pcie 12speed 16 GT/s
+    12lanes 8 12bus-ID 01:00.1 12chip-ID 10de:22be 12class-ID 0403
+  12API ALSA 12v k7.0.4-100.fc43.x86_64 12status kernel-api
+  12Server-1 PipeWire 12v 1.4.11 12status active 12with 121 pipewire-pulse 12status active 122 wireplumber
+    12status active 123 pipewire-alsa 12type plugin 124 pw-jack 12type plugin
+12Network:
+  12Device-1 Intel 700 Series CNVi WiFi 12driver iwlwifi 12v kernel 12bus-ID 00:14.3 12chip-ID 8086:7a70
+    12class-ID 0280
+  12IF wlp0s20f3 12state up 12mac <filter>
+  12Device-2 Realtek RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet 12vendor Lenovo 12driver r8169
+    12v kernel 12pcie 12speed 2.5 GT/s 12lanes 1 12port 4000 12bus-ID 08:00.0 12chip-ID 10ec:8168 12class-ID 0200
+  12IF enp8s0 12state down 12mac <filter>
+  12IF-ID-1 br-719cd8edcc98 12state down 12mac <filter>
+  12IF-ID-2 br-82fecec0c8ca 12state up 12speed 10000 Mbps 12duplex unknown 12mac <filter>
+  12IF-ID-3 br-aea448a8b938 12state down 12mac <filter>
+  12IF-ID-4 br-d3cd0a406050 12state down 12mac <filter>
+  12IF-ID-5 docker0 12state up 12speed 10000 Mbps 12duplex unknown 12mac <filter>
+  12IF-ID-6 Meta 12state unknown 12speed 10000 Mbps 12duplex full 12mac N/A
+  12IF-ID-7 tailscale0 12state unknown 12speed -1 12duplex full 12mac N/A
+  12IF-ID-8 veth0309b1a 12state up 12speed 10000 Mbps 12duplex full 12mac <filter>
+  12IF-ID-9 veth1f7fa5a 12state up 12speed 10000 Mbps 12duplex full 12mac <filter>
+  12IF-ID-10 veth2608010 12state up 12speed 10000 Mbps 12duplex full 12mac <filter>
+  12IF-ID-11 veth2bf795b 12state up 12speed 10000 Mbps 12duplex full 12mac <filter>
+  12IF-ID-12 veth5a21411 12state up 12speed 10000 Mbps 12duplex full 12mac <filter>
+  12IF-ID-13 vetha37ff60 12state up 12speed 10000 Mbps 12duplex full 12mac <filter>
+  12IF-ID-14 vethdd5f3c6 12state up 12speed 10000 Mbps 12duplex full 12mac <filter>
+  12IF-ID-15 vmnet2 12state unknown 12speed N/A 12duplex N/A 12mac <filter>
+  12IF-ID-16 vmnet3 12state unknown 12speed N/A 12duplex N/A 12mac <filter>
+  12IF-ID-17 vmnet8 12state unknown 12speed N/A 12duplex N/A 12mac <filter>
+12Bluetooth:
+  12Device-1 Intel AX211 Bluetooth 12driver btusb 12v 0.8 12type USB 12rev 2.0 12speed 12 Mb/s 12lanes 1
+    12bus-ID 1-14:4 12chip-ID 8087:0033 12class-ID e001
+  12Report btmgmt 12ID hci0 12rfk-id 3 12state up 12address <filter> 12bt-v 5.4 12lmp-v 13 12class-ID 7c010c
+12Drives:
+  12Local Storage 12total 953.87 GiB 12used 613.78 GiB (64.3%)
+  12ID-1 /dev/nvme0n1 12vendor Samsung 12model MZVL21T0HCLR-00BL2 12size 953.87 GiB 12speed 63.2 Gb/s
+    12lanes 4 12tech SSD 12serial <filter> 12fw-rev CL1QGXA7 12temp 51.9 C 12scheme GPT
+12Partition:
+  12ID-1 / 12size 952.28 GiB 12used 613.12 GiB (64.4%) 12fs btrfs 12dev /dev/nvme0n1p3
+  12ID-2 /boot 12size 973.4 MiB 12used 649.3 MiB (66.7%) 12fs ext4 12dev /dev/nvme0n1p2
+  12ID-3 /boot/efi 12size 598.8 MiB 12used 27.3 MiB (4.6%) 12fs vfat 12dev /dev/nvme0n1p1
+  12ID-4 /home 12size 952.28 GiB 12used 613.12 GiB (64.4%) 12fs btrfs 12dev /dev/nvme0n1p3
+12Swap:
+  12ID-1 swap-1 12type zram 12size 7.7 GiB 12used 3.49 GiB (45.3%) 12priority 100 12dev /dev/zram0
+12Sensors:
+  12System Temperatures 12cpu 50.2 C 12mobo N/A
+  12Fan Speeds (rpm) N/A
+12Info:
+  12Memory 12total 16 GiB 12available 15.41 GiB 12used 6.68 GiB (43.3%)
+  12Processes 730 12Power 12uptime 9h 54m 12states freeze,mem,disk 12suspend deep 12wakeups 0
+    12hibernate platform 12Init systemd 12v 258 12default graphical
+  12Packages 12pm rpm 12pkgs N/A 12note see --rpm 12pm flatpak 12pkgs 22 12Compilers 12clang 21.1.8 12gcc 15.2.1
+    12Client Unknown Client: codex 12inxi 3.3.40

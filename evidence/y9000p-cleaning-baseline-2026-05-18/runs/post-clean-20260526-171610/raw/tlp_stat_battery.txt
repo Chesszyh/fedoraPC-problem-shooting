@@ -1,0 +1,25 @@
+--- TLP 1.8.0 --------------------------------------------
+
++++ Battery Care
+Plugin: lenovo
+Supported features: charge threshold
+Driver usage:
+* vendor (ideapad_laptop) = active (charge threshold)
+Parameter value range:
+* STOP_CHARGE_THRESH_BAT0: 0(off), 1(on) -- battery conservation mode
+
+/sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode = 0 (off)
+
++++ Battery Status: BAT0
+/sys/class/power_supply/BAT0/manufacturer                   = COSMX
+/sys/class/power_supply/BAT0/model_name                     = L22X4PC0
+/sys/class/power_supply/BAT0/cycle_count                    =    110
+/sys/class/power_supply/BAT0/energy_full_design             =  80000 [mWh]
+/sys/class/power_supply/BAT0/energy_full                    =  70530 [mWh]
+/sys/class/power_supply/BAT0/energy_now                     =  68420 [mWh]
+/sys/class/power_supply/BAT0/power_now                      =      0 [mW]
+/sys/class/power_supply/BAT0/status                         = Not charging
+
+Charge                                                      =   97.0 [%]
+Capacity                                                    =   88.2 [%]
+

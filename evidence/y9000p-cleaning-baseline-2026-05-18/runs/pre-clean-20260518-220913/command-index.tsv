@@ -1,0 +1,57 @@
+file	status	duration_seconds	command
+date.txt	0	0	date -Is 
+uname.txt	0	0	uname -a 
+os-release.txt	0	0	cp -a /etc/os-release /home/chesszyh/Documents/Reports/evidence/y9000p-cleaning-baseline-2026-05-18/runs/pre-clean-20260518-220913/raw/os-release.copy 
+kernel-cmdline.txt	0	0	cp -a /proc/cmdline /home/chesszyh/Documents/Reports/evidence/y9000p-cleaning-baseline-2026-05-18/runs/pre-clean-20260518-220913/raw/kernel-cmdline.copy 
+uptime.txt	0	0	uptime '' 
+who.txt	0	0	who -a 
+free.txt	0	0	free -h 
+swapon.txt	0	0	swapon --show 
+lsblk.txt	0	0	lsblk -O 
+findmnt.txt	0	0	findmnt -R / 
+blkid.txt	0	0	sudo -n blkid 
+lscpu.txt	0	0	lscpu '' 
+lscpu_extended.txt	0	0	lscpu -e 
+cpuinfo.txt	0	0	bash -lc grep\ -E\ \'\^\(processor\|model\ name\|microcode\|cpu\ MHz\|cache\ size\|physical\ id\|core\ id\|siblings\|cpu\ cores\)\'\ /proc/cpuinfo 
+cpu_governors.txt	0	1	bash -lc grep\ -H\ .\ /sys/devices/system/cpu/cpu\*/cpufreq/scaling_\{driver\,governor\,min_freq\,max_freq\,cur_freq\}\ 2\>/dev/null\ \|\ sort 
+fastfetch.txt	0	0	fastfetch '' 
+inxi_full.txt	0	1	inxi -Fxxxz 
+dmidecode_all.txt	0	0	sudo -n dmidecode 
+dmidecode_system.txt	0	0	sudo -n dmidecode -t system 
+dmidecode_baseboard.txt	0	0	sudo -n dmidecode -t baseboard 
+dmidecode_bios.txt	0	0	sudo -n dmidecode -t bios 
+dmidecode_processor.txt	0	0	sudo -n dmidecode -t processor 
+dmidecode_memory.txt	0	0	sudo -n dmidecode -t memory 
+lspci_nn.txt	0	0	lspci -nn 
+lspci_vv.txt	0	0	sudo -n lspci -nnvv 
+lsusb.txt	0	0	lsusb '' 
+lsusb_tree.txt	0	0	lsusb -tv 
+lsusb_verbose.txt	0	0	sudo -n lsusb -v 
+sensors.txt	0	0	sensors '' 
+sensors_json.txt	0	0	sensors -j 
+thermal_sysfs.txt	0	1	bash -lc for\ z\ in\ /sys/class/thermal/thermal_zone\*\;\ do\ echo\ \'###\'\ \$z\;\ grep\ -H\ .\ \$z/type\ \$z/temp\ \$z/trip_point_\*\ 2\>/dev/null\;\ done 
+cooling_sysfs.txt	0	0	bash -lc for\ c\ in\ /sys/class/thermal/cooling_device\*\;\ do\ echo\ \'###\'\ \$c\;\ grep\ -H\ .\ \$c/type\ \$c/cur_state\ \$c/max_state\ 2\>/dev/null\;\ done 
+hwmon_sysfs.txt	2	1	bash -lc for\ h\ in\ /sys/class/hwmon/hwmon\*\;\ do\ echo\ \'###\'\ \$h\;\ grep\ -H\ .\ \$h/name\ \$h/\*_label\ \$h/temp\*_input\ \$h/fan\*_input\ \$h/pwm\*\ 2\>/dev/null\;\ done 
+nvidia_smi.txt	0	0	nvidia-smi '' 
+nvidia_smi_query.txt	0	0	nvidia-smi --query-gpu=name\,uuid\,gpu_bus_id\,pci.device_id\,pci.sub_device_id\,vbios_version\,driver_version\,pstate\,temperature.gpu\,power.draw\,power.limit\,clocks.gr\,clocks.mem\,memory.total\,memory.used --format=csv 
+nvidia_smi_q.txt	0	0	nvidia-smi -q 
+nvidia_smi_q_xml.txt	0	0	nvidia-smi -q -x 
+nvidia_smi_supported_clocks.txt	0	0	nvidia-smi -q -d SUPPORTED_CLOCKS 
+glxinfo_summary.txt	0	0	glxinfo -B 
+nvme_list.txt	0	0	sudo -n nvme list 
+nvme_nvme0_id_ctrl.txt	0	1	sudo -n nvme id-ctrl /dev/nvme0 
+nvme_nvme0_smart_log.txt	0	0	sudo -n nvme smart-log /dev/nvme0 
+nvme_nvme0_error_log.txt	0	0	sudo -n nvme error-log /dev/nvme0 
+smartctl_nvme0.txt	0	0	sudo -n smartctl -a /dev/nvme0 
+upower_devices.txt	0	0	upower -e 
+upower_dump.txt	0	0	bash -lc for\ d\ in\ \$\(upower\ -e\)\;\ do\ echo\ \'###\'\ \$d\;\ upower\ -i\ \$d\;\ done 
+tlp_stat_all.txt	0	1	sudo -n tlp-stat 
+tlp_stat_battery.txt	0	0	sudo -n tlp-stat -b 
+fwupdmgr_devices.txt	0	3	fwupdmgr get-devices 
+rpm_key_packages.txt	0	3	bash -lc rpm\ -qa\ \|\ sort\ \|\ grep\ -Ei\ \'\^\(kernel\|nvidia\|akmod\|kmod\|xorg-x11-drv-nvidia\|mesa\|vulkan\|hyprland\|linux-firmware\|tlp\|lm_sensors\|stress-ng\|nvme-cli\|smartmontools\)\' 
+journal_current_boot_errors.txt	0	0	journalctl -b -p warning..alert --no-pager 
+dmesg_errors.txt	0	0	sudo -n dmesg -T --level=err\,warn 
+turbostat_cpu_stress.txt	0	180	sudo -n turbostat --quiet --Summary --interval 5 --num_iterations 36 --show Busy%\,Bzy_MHz\,Avg_MHz\,TSC_MHz\,CPU%c1\,CPU%c6\,CoreTmp\,PkgTmp\,PkgWatt\,GFXWatt\,RAMWatt -- stress-ng --cpu 0 --cpu-method matrixprod --metrics-brief --timeout 180s 
+stress_ng_memory.txt	0	91	stress-ng --vm 2 --vm-bytes 70% --metrics-brief --timeout 90s 
+sensors_after.txt	0	0	sensors '' 
+nvidia_smi_after.txt	0	0	nvidia-smi -q 

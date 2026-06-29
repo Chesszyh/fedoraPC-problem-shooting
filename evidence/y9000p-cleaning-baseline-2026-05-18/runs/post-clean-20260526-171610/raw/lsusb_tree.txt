@@ -1,0 +1,14 @@
+/:  Bus 001.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/16p, 480M
+    ID 1d6b:0002 Linux Foundation 2.0 root hub
+    |__ Port 006: Dev 002, If 0, Class=Human Interface Device, Driver=usbhid, 12M
+        ID 048d:c103 Integrated Technology Express, Inc. 
+    |__ Port 011: Dev 003, If 0, Class=Video, Driver=uvcvideo, 480M
+        ID 30c9:00a6 Luxvisions Innotech Limited 
+    |__ Port 011: Dev 003, If 1, Class=Video, Driver=uvcvideo, 480M
+        ID 30c9:00a6 Luxvisions Innotech Limited 
+    |__ Port 014: Dev 004, If 0, Class=Wireless, Driver=btusb, 12M
+        ID 8087:0033 Intel Corp. AX211 Bluetooth
+    |__ Port 014: Dev 004, If 1, Class=Wireless, Driver=btusb, 12M
+        ID 8087:0033 Intel Corp. AX211 Bluetooth
+/:  Bus 002.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/10p, 20000M/x2
+    ID 1d6b:0003 Linux Foundation 3.0 root hub

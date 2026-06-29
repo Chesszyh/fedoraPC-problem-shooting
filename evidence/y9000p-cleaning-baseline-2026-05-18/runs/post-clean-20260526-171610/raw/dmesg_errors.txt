@@ -1,0 +1,40 @@
+[Tue May 26 17:13:26 2026] [Firmware Bug]: TSC ADJUST: CPU0: -4563653211 force to 0
+[Tue May 26 17:13:26 2026] [Firmware Bug]: TSC ADJUST differs within socket(s), fixing all errors
+[Tue May 26 17:13:26 2026]   #1  #3  #5  #7  #9 #11 #13 #15
+[Tue May 26 17:13:27 2026] hpet_acpi_add: no address or irqs in _CRS
+[Tue May 26 17:13:28 2026] i2c_designware i2c_designware.4: [Firmware Bug]: DSDT uses known not-working I2C bus speed 400000, forcing it to 100000
+[Tue May 26 17:13:28 2026] i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+[Tue May 26 17:13:28 2026] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[Tue May 26 17:13:30 2026] systemd-sysv-generator[757]: SysV service '/etc/rc.d/init.d/vmware-USBArbitrator' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Tue May 26 17:13:30 2026] systemd-sysv-generator[757]: Please update package to include a native systemd unit file.
+[Tue May 26 17:13:30 2026] systemd-sysv-generator[757]: ! This compatibility logic is deprecated, expect removal soon. !
+[Tue May 26 17:13:30 2026] systemd-sysv-generator[757]: SysV service '/etc/rc.d/init.d/vpnmanager' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[Tue May 26 17:13:30 2026] systemd-sysv-generator[757]: Please update package to include a native systemd unit file.
+[Tue May 26 17:13:30 2026] systemd-sysv-generator[757]: ! This compatibility logic is deprecated, expect removal soon. !
+[Tue May 26 17:13:31 2026] v4l2loopback: loading out-of-tree module taints kernel.
+[Tue May 26 17:13:31 2026] systemd-journald[789]: File /var/log/journal/3713db442ab44c6bb845a5e099dca5e4/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[Tue May 26 17:13:31 2026] spi-nor spi0.0: supply vcc not found, using dummy regulator
+[Tue May 26 17:13:31 2026] r8169 0000:08:00.0: can't disable ASPM; OS doesn't have ASPM control
+[Tue May 26 17:13:31 2026] lenovo_wmi_other DC2A8805-3A8C-41BA-A6F7-092E0089CD3B-6: fan reporting/tuning is unsupported on this device
+[Tue May 26 17:13:31 2026] spi-nor spi0.1: supply vcc not found, using dummy regulator
+[Tue May 26 17:13:31 2026] tlp: vm.laptop_mode is deprecated. Ignoring setting.
+
+[Tue May 26 17:13:31 2026] NVRM: loading NVIDIA UNIX Open Kernel Module for x86_64  580.159.03  Release Build  (dvs-builder@U22-I3-AM27-29-6)  Fri Apr 24 06:03:03 UTC 2026
+[Tue May 26 17:13:32 2026] kauditd_printk_skb: 21 callbacks suppressed
+[Tue May 26 17:13:32 2026] NVRM: testIfDsmSubFunctionEnabled: GPS ACPI DSM called before _acpiDsmSupportedFuncCacheInit subfunction = 11.
+[Tue May 26 17:13:32 2026] SELinux: systemd-tmpfile (1274) wrote to checkreqprot. This is no longer supported.
+[Tue May 26 17:13:33 2026] NVRM: testIfDsmSubFunctionEnabled: GPS ACPI DSM called before _acpiDsmSupportedFuncCacheInit subfunction = 11.
+[Tue May 26 17:13:33 2026] nvme nvme0: using unchecked data buffer
+[Tue May 26 17:13:34 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_TZ.ETMD], AE_NOT_FOUND (20251212/psargs-332)
+[Tue May 26 17:13:34 2026] ACPI Error: Aborting method \_SB.IETM._OSC due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Tue May 26 17:13:35 2026] Thread-1 (_thre: vm.laptop_mode is deprecated. Ignoring setting.
+[Tue May 26 17:13:41 2026] systemd-journald[789]: File /var/log/journal/3713db442ab44c6bb845a5e099dca5e4/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+[Tue May 26 17:14:50 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q12.WM00], AE_NOT_FOUND (20251212/psargs-332)
+[Tue May 26 17:14:50 2026] ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q12 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Tue May 26 17:14:50 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q12.WM00], AE_NOT_FOUND (20251212/psargs-332)
+[Tue May 26 17:14:50 2026] ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q12 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Tue May 26 17:14:50 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q12.WM00], AE_NOT_FOUND (20251212/psargs-332)
+[Tue May 26 17:14:50 2026] ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q12 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Tue May 26 17:14:50 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.EC0._Q12.WM00], AE_NOT_FOUND (20251212/psargs-332)
+[Tue May 26 17:14:50 2026] ACPI Error: Aborting method \_SB.PC00.LPCB.EC0._Q12 due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+[Tue May 26 17:16:18 2026] ideapad_acpi VPC2004:00: conservation_mode attribute has been deprecated, see charge_types.
