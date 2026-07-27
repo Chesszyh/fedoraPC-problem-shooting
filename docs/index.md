@@ -50,6 +50,7 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 - [Fedora Hyprland SDDM 黑屏快速检查清单](fedora-hyprland-sddm-black-screen-akmods-quick-checklist-2026-03-15.md)
 - [Fedora Hyprland VS Code inotify 耗尽导致图形会话崩溃报告](fedora-hyprland-vscode-inotify-portal-crash-report-2026-06-14.md)
 - [Fedora Hyprland Snipaste AppImage FUSE 挂载耗尽与 Rofi 启动项失效报告](fedora-hyprland-snipaste-appimage-fuse-rofi-report-2026-06-29.md)
+- [Fedora 43 Hyprland 锁屏后 NVIDIA 挂起准备卡死报告](fedora-hyprland-nvidia-suspend-service-hang-report-2026-07-27.md)
 - [Fedora Legion Y9000P 键盘突然失效报告](fedora-legion-y9000p-keyboard-sudden-failure-report-2026-04-07.md)
 - [Fedora Legion Y9000P 清灰前硬件与性能快照报告](fedora-y9000p-cleaning-precheck-report-2026-05-18.md)
 - [Fedora Legion Y9000P 拆机清灰换硅脂前后体检对比报告](fedora-y9000p-cleaning-postcheck-comparison-report-2026-05-26.md)
