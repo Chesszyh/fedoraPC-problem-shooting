@@ -46,6 +46,7 @@ Fedora Hyprland、网络代理、开发工具和系统排障记录。每篇报�
 <div class="report-list" markdown>
 
 - [Hyprland 登录黑屏问题报告](Hyprland_登录黑屏问题报告_2026-03-03.md)
+- [Hyprland 剪贴板停录、文本粘贴失败与截图乱码排障报告](hyprland-clipboard-history-text-image-regression-report-2026-09-07.md)
 - [Fedora Hyprland SDDM 黑屏与 akmods 报告](fedora-hyprland-sddm-black-screen-akmods-2026-03-15.md)
 - [Fedora Hyprland SDDM 黑屏快速检查清单](fedora-hyprland-sddm-black-screen-akmods-quick-checklist-2026-03-15.md)
 - [Fedora Hyprland VS Code inotify 耗尽导致图形会话崩溃报告](fedora-hyprland-vscode-inotify-portal-crash-report-2026-06-14.md)
